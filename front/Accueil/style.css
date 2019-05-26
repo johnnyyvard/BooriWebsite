@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'opendyslexic3regular';
-    src: url('./font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff2') format('woff2'), url('./font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff') format('woff');
+    src: url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff2') format('woff2'), url('./font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
 body {
     background-color: #fafbfb;
     font-family: opendyslexic3regular;
-    font-size: 1.5em;
+    font-size: 50%;
     color: #000000;
 }
 
@@ -26,11 +26,11 @@ a:link {
     margin: auto;
 }
 
-article h1,
-aside h1,
-nav a,
+article h4,
+aside h2,
 section h2 {
     text-transform: uppercase;
+    font-size: 200%;
 }
 
 .link {
@@ -53,13 +53,12 @@ header {
 
 #logo {
     display: flex;
-    height: 25%;
-    width: 25%;
     margin-left: 15%;
 }
 
 header h1 {
     margin-left: 50%;
+    font-size: 400%;
 }
 
 
@@ -90,10 +89,10 @@ nav a:hover {
 /* Bannière */
 
 #banniere_image {
-    background: url('images/image.png');
+    background: url('../images/image.png') no-repeat;
     background-size: 100%;
     margin-top: 1%;
-    width: 1308px;
+    width: 500px;
     height: 972px;
     margin-left: auto;
     margin-right: auto;
@@ -106,7 +105,7 @@ nav a:hover {
     position: absolute;
     background-color: #000000;
     color: #ffffff;
-    bottom: 0;
+    bottom: 60%;
     width: 98%;
     height: 1%;
     padding-left: 2%;
@@ -127,12 +126,14 @@ nav a:hover {
 }
 
 section {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-top: 1%;
 }
 
 section h2 {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 article,
@@ -149,12 +150,7 @@ article {
     margin-left: 5%;
 }
 
-article h1 {
-    margin-bottom: 5%;
-    font-size: 1.2em;
-}
-
-article h1 img {
+article h4 img {
     width: 10%;
     height: 10%;
     padding-top: 10%;
@@ -180,7 +176,8 @@ article p {
 
 #titre h4 {
     margin-left: 3%;
-    font-size: 130%;
+    font-size: 65%;
+    margin-bottom: 10%;
 }
 
 
@@ -222,6 +219,28 @@ aside a img {
     margin-left: auto;
     width: 15%;
     height: 15%;
+}
+
+table {
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+table,
+tr {
+    border: 1px solid #32c781;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: #32c781;
+    text-transform: uppercase;
+}
+
+td a {
+    display: block;
+    text-decoration: none
 }
 
 
