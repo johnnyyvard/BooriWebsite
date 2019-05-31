@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'opendyslexic3regular';
-    src: url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff2') format('woff2'), url('./font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff') format('woff');
+    src: url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff2') format('woff2'), url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
