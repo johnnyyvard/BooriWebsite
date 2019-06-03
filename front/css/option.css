@@ -13,7 +13,7 @@
 body {
     background-color: #fafbfb;
     font-family: opendyslexic3regular;
-    font-size: 50%;
+    font-size: 70%;
     color: #000000;
 }
 
@@ -51,18 +51,17 @@ header {
     display: flex;
     flex-direction: row;
     margin-left: 15%;
-    margin-top: 10%;
 }
 
 header h1 {
     margin-left: 10%;
-    font-size: 250%;
+    font-size: 530%;
 }
 
 #téléphone {
     width: 20%;
     height: 20%;
-    margin-top: 15%;
+    margin-top: 25%;
 }
 
 
@@ -79,7 +78,7 @@ nav li {
 }
 
 nav a {
-    font-size: 230%;
+    font-size: 530%;
     color: #000000;
     text-decoration: none;
     padding-right: 90%;
@@ -99,8 +98,8 @@ footer {
 #logo_footer {
     width: 10%;
     height: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
