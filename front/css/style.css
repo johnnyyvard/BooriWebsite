@@ -220,7 +220,7 @@ aside a img {
     height: 15%;
 }
 
-#articlepaire {
+#articlepair {
     position: relative;
     background-color: white;
     box-shadow: 0px 3px 7px #1c1a19;
@@ -239,7 +239,40 @@ aside a img {
 }
 
 h6 {
-    margin-left: 43%;
+    margin-left: 690%;
+}
+
+#articlepair h7 {
+    text-transform: uppercase;
+    font-size: 130%;
+}
+
+#articleimpair {
+    position: relative;
+    background-color: #32c781;
+    box-shadow: 0px 3px 7px #1c1a19;
+    border-radius: 5px;
+    color: white;
+    width: 25%;
+    height: 25%;
+    align-items: flex-end;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 13%;
+    margin-top: 10%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#articleimpair h7 {
+    text-transform: uppercase;
+    font-size: 130%;
+}
+
+#articles {
+    display: flex;
+    flex-direction: row;
 }
 
 
