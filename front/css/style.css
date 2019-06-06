@@ -35,11 +35,11 @@ article h6 {
 }
 
 a {
-    color: #000000;
+    color: #32c781;
 }
 
 a:hover {
-    color: #32c781;
+    color: #3578E5;
 }
 
 
@@ -86,14 +86,14 @@ nav li {
 
 nav a {
     font-size: 230%;
-    color: #000000;
+    color: #32c781;
     text-decoration: none;
     padding-right: 90%;
     font-size: 150%;
 }
 
 nav a:hover {
-    color: #32c781;
+    color: #3578E5;
 }
 
 
@@ -162,7 +162,7 @@ article h4 img {
 }
 
 article p {
-    line-height: 150%;
+    line-height: 250%;
     text-align: justify;
 }
 
@@ -235,12 +235,18 @@ aside a img {
     height: 25%;
     align-items: flex-end;
     text-align: center;
-    margin-right: 5%;
-    margin-left: 13%;
     margin-top: 10%;
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#articlepair a {
+    color: #000000
+}
+
+#articlepair a:hover {
+    color: #3578E5
 }
 
 h6 {
@@ -262,12 +268,8 @@ h6 {
     height: 25%;
     align-items: flex-end;
     text-align: center;
-    margin-right: 5%;
-    margin-left: 13%;
     margin-top: 10%;
     padding: 1%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #articleimpair a {
