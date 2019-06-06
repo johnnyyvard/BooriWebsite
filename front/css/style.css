@@ -34,11 +34,11 @@ article h6 {
     font-size: 130%;
 }
 
-.link {
+a {
     color: #000000;
 }
 
-.link:hover {
+a:hover {
     color: #32c781;
 }
 
@@ -268,6 +268,14 @@ h6 {
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#articleimpair a {
+    color: #000000
+}
+
+#articleimpair a:hover {
+    color: #3578E5
 }
 
 #articleimpair h5 {
