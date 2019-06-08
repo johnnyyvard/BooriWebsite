@@ -10,6 +10,11 @@
 
 /* Éléments principaux de la page*/
 
+#bloc_page {
+    width: 100%;
+    margin: auto;
+}
+
 body {
     background-color: #fafbfb;
     font-family: opendyslexic3regular;
@@ -21,25 +26,18 @@ a:link {
     text-decoration: none;
 }
 
-#bloc_page {
-    width: 100%;
-    margin: auto;
-}
-
-article h4,
-aside h5,
-section h3,
-article h6 {
-    text-transform: uppercase;
-    font-size: 130%;
-}
-
 a {
     color: #32c781;
 }
 
 a:hover {
     color: #3578E5;
+}
+
+article h1,
+aside h1 {
+    text-transform: uppercase;
+    font-size: 130%;
 }
 
 
@@ -121,7 +119,6 @@ nav a:hover {
     height: 0%;
     padding-left: 2%;
     padding-bottom: 8%;
-    font-size: 130%;
 }
 
 
@@ -132,9 +129,10 @@ nav a:hover {
     flex-direction: row;
 }
 
-h3 {
+#pres h1 {
     margin-left: 45%;
     margin-top: 5%;
+    text-transform: uppercase;
 }
 
 section {
@@ -155,7 +153,7 @@ article {
     margin-left: 5%;
 }
 
-article h4 img {
+article h1 img {
     width: 50%;
     height: 50%;
     padding-top: 10%;
@@ -179,7 +177,7 @@ article p {
     margin-top: 15%;
 }
 
-#titre h4 {
+#titre h1 {
     margin-left: 3%;
     margin-bottom: 10%;
 }
@@ -203,7 +201,7 @@ aside {
     padding: 1%;
 }
 
-aside h5 {
+aside h1 {
     text-align: center;
 }
 
@@ -225,64 +223,72 @@ aside a img {
     height: 15%;
 }
 
-#articlepair {
+
+/* Articles */
+
+#articles aside {
     background-color: white;
     box-shadow: 0px 3px 7px #1c1a19;
     border-radius: 5px;
     color: #32c781;
     width: 25%;
     height: 25%;
-    text-align: center;
+    text-align: justify;
     margin-top: 10%;
     margin-left: 3%;
-    padding: 1%;
+    padding: 5%;
+    line-height: 250%;
 }
 
-#articlepair a {
+#articles aside a {
     color: #000000
 }
 
-#articlepair a:hover {
+#articles aside a:hover {
     color: #3578E5
 }
 
-h6 {
-    margin-left: 690%;
-}
-
-#articlepair h5 {
+#articles aside h5 {
     text-transform: uppercase;
     font-size: 130%;
 }
 
-#articleimpair {
+#articles article {
     background-color: #32c781;
     box-shadow: 0px 3px 7px #1c1a19;
     border-radius: 5px;
     color: white;
     width: 25%;
     height: 25%;
-    text-align: center;
+    text-align: justify;
     margin-top: 10%;
-    padding: 1%;
+    padding: 5%;
+    line-height: 250%;
 }
 
-#articleimpair a {
+#articles article a {
     color: #000000
 }
 
-#articleimpair a:hover {
+#articles article a:hover {
     color: #3578E5
 }
 
-#articleimpair h5 {
+#articles article h5 {
     text-transform: uppercase;
     font-size: 130%;
 }
 
-#articles {
+#articles div {
     display: flex;
     flex-direction: row;
+    margin-left: 12%;
+}
+
+#articles h6 {
+    text-transform: uppercase;
+    font-size: 130%;
+    margin-left: 47%
 }
 
 
