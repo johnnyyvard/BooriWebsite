@@ -1,9 +1,13 @@
 /* Définition de la police */
 
 @font-face {
+    /* famille de la police */
     font-family: 'opendyslexic3regular';
+    /* url de la police */
     src: url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff2') format('woff2'), url('../font/webfontkit-20181016-024751/opendyslexic3-regular-webfont.woff') format('woff');
+    /* graisse de la police */
     font-weight: normal;
+    /* style de la police */
     font-style: normal;
 }
 
@@ -11,33 +15,45 @@
 /* Éléments principaux de la page*/
 
 #bloc_page {
+    /* largeur de la page */
     width: 100%;
+    /* marge */
     margin: auto;
 }
 
 body {
+    /* couleur de fond */
     background-color: #fafbfb;
+    /* utilisation de la police définie plus haut */
     font-family: opendyslexic3regular;
+    /* taille de la police */
     font-size: 70%;
+    /* couleur de la police */
     color: #000000;
 }
 
 a:link {
+    /* suppression de la ligne sous les liens */
     text-decoration: none;
 }
 
 a {
+    /* couleur des liens */
     color: #32c781;
 }
 
 a:hover {
+    /* couleur des liens au passage du curseur */
     color: #3578E5;
 }
 
 article h1,
 aside h1 {
+    /* met le texte en majuscule */
     text-transform: uppercase;
+    /* taille de la police */
     font-size: 130%;
+    /* alignement du texte */
     text-align: center;
 }
 
@@ -45,9 +61,16 @@ aside h1 {
 /* Header */
 
 header {
+    /* couleur du fond */
     background-color: #ffffff;
+    /* flexibilité des éléments */
     display: flex;
+    /* Les éléments sont répartis équitablement
+    Le bord du premier est aligné sur le 
+    début du conteneur et la fin du dernier
+    est alignée sur la fin du conteneur */
     justify-content: space-between;
+    /* Les éléments flexibles sont regroupés à la fin */
     align-items: flex-end;
 }
 
@@ -228,7 +251,7 @@ aside a img {
 
 /* Articles */
 
-#articles aside {
+#articlesbi aside {
     background-color: white;
     box-shadow: 0px 3px 7px #1c1a19;
     border-radius: 5px;
@@ -242,20 +265,20 @@ aside a img {
     line-height: 250%;
 }
 
-#articles aside a {
+#articlesbi aside a {
     color: #000000
 }
 
-#articles aside a:hover {
+#articlesbi aside a:hover {
     color: #3578E5
 }
 
-#articles aside h1 {
+#articlesbi aside h1 {
     text-transform: uppercase;
     font-size: 130%;
 }
 
-#articles article {
+#articlesbi article {
     background-color: #32c781;
     box-shadow: 0px 3px 7px #1c1a19;
     border-radius: 5px;
@@ -269,28 +292,51 @@ aside a img {
     margin-left: 3%;
 }
 
-#articles article a {
+#articlesbi article a {
     color: #000000
 }
 
-#articles article a:hover {
+#articlesbi article a:hover {
     color: #3578E5
 }
 
-#articles h1 {
+#articlesbi h1 {
     text-transform: uppercase;
     font-size: 130%;
     text-align: center;
 }
 
-#articles div {
+#articlesbi div {
     display: flex;
     flex-direction: row;
     margin-left: 5%;
 }
 
+#TeXmaker {
+    margin-top: 5%;
+    background-color: #32c781;
+    box-shadow: 0px 3px 7px #1c1a19;
+    border-radius: 5px;
+    color: white;
+    height: 90%;
+    width: 80%;
+    text-align: justify;
+    padding: 5%;
+    line-height: 250%;
+    margin-left: 3%;
+}
+
+#TeXmaker div {
+    display: flex;
+    flex-direction: column;
+}
+
+#TeXmaker h1 {
+    margin-bottom: 5%;
+}
+
 #CapTeX {
-    height: 100%;
+    height: 50%;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 2%;
