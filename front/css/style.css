@@ -47,16 +47,6 @@ a:hover {
     color: #3578E5;
 }
 
-article h1,
-aside h1 {
-    /* met le texte en majuscule */
-    text-transform: uppercase;
-    /* taille de la police */
-    font-size: 130%;
-    /* alignement du texte */
-    text-align: center;
-}
-
 
 /* Header */
 
@@ -78,18 +68,26 @@ header {
 /* Logo */
 
 #logo {
+    /* flexibilité des éléments */
     display: flex;
+    /* La direction suit une ligne */
     flex-direction: row;
+    /* espace horizontal à gauche */
     margin-left: 15%;
 }
 
 header h1 {
+    /* espace horizontal à gauche */
     margin-left: 10%;
 }
 
 #téléphone {
+    /* largeur */
     width: 20%;
+    /* hauteur  */
     height: 20%;
+    /* définit l'espace vertical pour 
+    la marge appliquée en haut de l'élément */
     margin-top: 15%;
 }
 
@@ -99,22 +97,29 @@ header h1 {
 nav ul {
     /* Masque les puces */
     list-style-type: none;
+    /* flexibilité des éléments */
     display: flex;
 }
 
 nav li {
+    /* définit l'espace horizontal à droite
+    qui formera la marge à droite */
     margin-right: 18%;
 }
 
 nav a {
-    font-size: 230%;
+    /* couleur de la police */
     color: #32c781;
+    /* suppression de la ligne sous les liens */
     text-decoration: none;
+    /* espace nécessaire à la droite d'un élément */
     padding-right: 90%;
+    /* taille de la police */
     font-size: 150%;
 }
 
 nav a:hover {
+    /* couleur des liens au passage du curseur */
     color: #3578E5;
 }
 
@@ -122,26 +127,49 @@ nav a:hover {
 /* Bannière */
 
 #banniere_image {
+    /* lien du fond */
     background: url('../images/image.png') no-repeat;
+    /* taille du fond */
     background-size: 100%;
+    /* définit l'espace vertical pour 
+    la marge appliquée en haut de l'élément */
     margin-top: 3%;
+    /* largeur */
     width: 900px;
+    /* hauteur  */
     height: 500px;
+    /* espace horizontal à gauche */
     margin-left: auto;
+    /* espace horizontal à droite */
     margin-right: auto;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 3%;
+    /* positionné dans le flux normal du document */
     position: relative;
+    /* génère une boîte de bloc ce qui ajoute des 
+    passages à la ligne avant et après l'élément dans le flux normal */
     display: block;
 }
 
 #banniere_description {
+    /* retiré du flux normal et aucun espace n'est créé pour l'élément 
+    sur la page */
     position: absolute;
+    /* couleur du fond */
     background-color: #000000;
+    /* couleur de la police */
     color: #ffffff;
+    /* contribue à la définition de l'emplacement vertical des éléments 
+    positionnés en bas*/
     bottom: 0;
+    /* largeur */
     width: 98%;
+    /* hauteur */
     height: 0%;
+    /* espace nécessaire à la gauche d'un élément */
     padding-left: 2%;
+    /* espace nécessaire en bas d'un élément */
     padding-bottom: 8%;
 }
 
@@ -149,53 +177,85 @@ nav a:hover {
 /* Corps */
 
 #blocPres {
+    /* flexibilité des éléments */
     display: flex;
+    /* La direction suit une ligne */
     flex-direction: row;
 }
 
 #pres h1 {
+    /* espace horizontal à gauche */
     margin-left: 45%;
+    /* espace horizontal en haut */
     margin-top: 5%;
+    /* met le texte en majuscule */
     text-transform: uppercase;
 }
 
 section {
+    /* espace horizontal en bas */
     margin-bottom: 10%;
 }
 
 article,
 aside {
+    /* alignement horizontal et centré */
     text-align: justify;
+    /* espace horizontal en haut */
     margin-top: 1%;
+}
+
+article h1,
+aside h1 {
+    /* met le texte en majuscule */
+    text-transform: uppercase;
+    /* taille de la police */
+    font-size: 130%;
+    /* alignement du texte */
+    text-align: center;
 }
 
 
 /* Article */
 
 article {
+    /* génère une boîte de bloc ce qui ajoute des 
+    passages à la ligne avant et après l'élément dans le flux normal */
     display: block;
+    /* espace horizontal à gauche */
     margin-left: 5%;
 }
 
 article h1 img {
+    /* largeur */
     width: 50%;
+    /* hauteur */
     height: 50%;
+    /* espace nécessaire en haut d'un élément */
     padding-top: 10%;
 }
 
 article p {
+    /* définit la hauteur entre les lignes */
     line-height: 250%;
+    /* alignement du texte */
     text-align: justify;
 }
 
 #ico_materiel {
+    /* placé sur le côté droit */
     float: right;
+    /* contribue à la définition de l'emplacement vertical des éléments 
+    positionnés en bas*/
     bottom: 0%;
+    /* largeur */
     width: 10%;
+    /* hauteur */
     height: 10%;
 }
 
 #titre {
+    /* flexibilité des éléments */
     display: flex;
     flex-direction: row;
     margin-top: 15%;
