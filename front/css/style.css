@@ -199,7 +199,7 @@ section {
 
 article,
 aside {
-    /* alignement horizontal et centré */
+    /* texte justifié */
     text-align: justify;
     /* espace horizontal en haut */
     margin-top: 1%;
@@ -211,7 +211,7 @@ aside h1 {
     text-transform: uppercase;
     /* taille de la police */
     font-size: 130%;
-    /* alignement du texte */
+    /* alignement au centre du texte */
     text-align: center;
 }
 
@@ -238,7 +238,7 @@ article h1 img {
 article p {
     /* définit la hauteur entre les lignes */
     line-height: 250%;
-    /* alignement du texte */
+    /* texte justifié */
     text-align: justify;
 }
 
@@ -257,54 +257,84 @@ article p {
 #titre {
     /* flexibilité des éléments */
     display: flex;
+    /* La direction suit une ligne */
     flex-direction: row;
+    /* espace horizontal en haut */
     margin-top: 15%;
 }
 
 #titre h1 {
+    /* espace horizontal à gauche */
     margin-left: 3%;
+    /* espace horizontal en bas */
     margin-bottom: 5%;
+    /* espace horizontal en haut */
     margin-top: 3%;
 }
 
 
 /* Aside */
 
-aside {
+#reseaux {
+    /* positionné dans le flux normal du document */
     position: relative;
+    /* couleur du fond */
     background-color: #32c781;
+    /* ajoute des ombres à la boîte d'un élément */
     box-shadow: 0px 3px 7px #1c1a19;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 5px;
+    /* couleur de la police */
     color: white;
+    /* largeur */
     width: 25%;
+    /* hauteur */
     height: 25%;
+    /* Les éléments flexibles sont regroupés à la fin */
     align-items: flex-end;
+    /* alignement au centre du texte */
     text-align: center;
+    /* espace horizontal à droite */
     margin-right: 5%;
+    /* espace horizontal à gauche */
     margin-left: 13%;
+    /* espace horizontal en haut */
     margin-top: 10%;
+    /* espace autour d'un bloc */
     padding: 1%;
 }
 
 #reseaux h1 {
+    /* espace horizontal à gauche */
     margin-left: 0%;
 }
 
 #ma_photo {
+    /* alignement au centre du texte */
     text-align: center;
 }
 
 #ma_photo img {
+    /* bordure */
     border: 2px solid #ffffff;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 50%;
+    /* largeur */
     width: 50%;
+    /* hauteur */
     height: 50%;
 }
 
 aside a img {
+    /* espace horizontal à droite */
     margin-right: auto;
+    /* espace horizontal à gauche */
     margin-left: auto;
+    /* largeur */
     width: 15%;
+    /* hauteur */
     height: 15%;
 }
 
@@ -312,97 +342,154 @@ aside a img {
 /* Articles */
 
 #articlesbi aside {
+    /* couleur de fond */
     background-color: white;
+    /* ajoute des ombres à la boîte d'un élément */
     box-shadow: 0px 3px 7px #1c1a19;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 5px;
+    /* couleur de la police */
     color: #32c781;
+    /* largeur */
     width: 30%;
+    /* hauteur */
     height: 30%;
+    /* texte justifié */
     text-align: justify;
+    /* espace horizontal en haut */
     margin-top: 10%;
+    /* espace horizontal à gauche */
     margin-left: 3%;
+    /* espace autour d'un bloc */
     padding: 5%;
+    /* définit la hauteur entre les lignes */
     line-height: 250%;
 }
 
 #articlesbi aside a {
+    /* couleur des liens */
     color: #000000
 }
 
 #articlesbi aside a:hover {
+    /* couleur des liens au passage du curseur */
     color: #3578E5
 }
 
 #articlesbi aside h1 {
+    /* met le texte en majuscule */
     text-transform: uppercase;
+    /* taille de la police */
     font-size: 130%;
 }
 
 #articlesbi article {
+    /* couleur de fond */
     background-color: #32c781;
+    /* ajoute des ombres à la boîte d'un élément */
     box-shadow: 0px 3px 7px #1c1a19;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 5px;
+    /* couleur de la police */
     color: white;
+    /* largeur */
     width: 30%;
+    /* hauteur */
     height: 30%;
+    /* texte justifié */
     text-align: justify;
+    /* espace horizontal en haut */
     margin-top: 10%;
+    /* espace autour d'un bloc */
     padding: 5%;
+    /* définit la hauteur entre les lignes */
     line-height: 250%;
+    /* espace horizontal à gauche */
     margin-left: 3%;
 }
 
 #articlesbi article a {
+    /* couleur des liens */
     color: #000000
 }
 
 #articlesbi article a:hover {
+    /* couleur des liens au passage du curseur */
     color: #3578E5
 }
 
 #articlesbi h1 {
+    /* met le texte en majuscule */
     text-transform: uppercase;
+    /* taille de la police */
     font-size: 130%;
+    /* alignement au centre du texte */
     text-align: center;
 }
 
 #articlesbi div {
+    /* flexibilité des éléments */
     display: flex;
+    /* La direction suit une ligne */
     flex-direction: row;
+    /* espace horizontal à gauche */
     margin-left: 5%;
 }
 
 #TeXmaker {
+    /* espace horizontal en haut */
     margin-top: 5%;
+    /* couleur de fond */
     background-color: #32c781;
+    /* ajoute des ombres à la boîte d'un élément */
     box-shadow: 0px 3px 7px #1c1a19;
+    /* permet de définir des coins arrondis
+    pour la bordure d'un élément */
     border-radius: 5px;
+    /* couleur de la police */
     color: white;
+    /* hauteur */
     height: 90%;
+    /* largeur */
     width: 80%;
+    /* texte justifié */
     text-align: justify;
+    /* espace autour d'un bloc */
     padding: 5%;
+    /* définit la hauteur entre les lignes */
     line-height: 250%;
+    /* espace horizontal à gauche */
     margin-left: 3%;
 }
 
 #TeXmaker div {
+    /* flexibilité des éléments */
     display: flex;
+    /* Les lignes de texte sont */
+    /* empilées                 */
     flex-direction: column;
 }
 
 #TeXmaker h1 {
+    /* espace horizontal en bas */
     margin-bottom: 5%;
 }
 
 #CapTeX {
+    /* hauteur */
     height: 50%;
+    /* largeur */
     width: 100%;
+    /* espace horizontal en haut */
     margin-top: 5%;
+    /* espace horizontal en bas */
     margin-bottom: 2%;
 }
 
 #caperr {
+    /* alignement au centre du texte */
     text-align: center;
 }
 
@@ -410,19 +497,28 @@ aside a img {
 /* Footer */
 
 footer {
+    /* couleur de fond */
     background-color: #ffffff;
 }
 
 #logo_footer {
+    /* largeur */
     width: 10%;
+    /* hauteur */
     height: 10%;
+    /* espace horizontal à gauche */
     margin-left: 50%;
+    /* espace horizontal à droite */
     margin-right: 50%;
+    /* espace nécessaire en haut d'un élément */
     padding-top: 1%;
+    /* espace nécessaire en bas d'un élément */
     padding-bottom: 1%;
 }
 
 #logo_footer img {
+    /* largeur */
     width: 25%;
+    /* hauteur */
     height: 25%;
 }
