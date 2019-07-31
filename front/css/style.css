@@ -218,6 +218,11 @@ aside h2 {
 
 /* Article */
 
+section h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 article {
     /* génère une boîte de bloc ce qui ajoute des 
     passages à la ligne avant et après l'élément dans le flux normal */
