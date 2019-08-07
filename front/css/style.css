@@ -1,4 +1,4 @@
-/* Définition de la police */
+/*------------------------------------------- Définition de la police */
 
 @font-face {
     /* famille de la police */
@@ -12,7 +12,7 @@
 }
 
 
-/* Éléments principaux de la page*/
+/*------------------------------------- Éléments principaux de la page*/
 
 #bloc_page {
     /* largeur de la page */
@@ -25,12 +25,15 @@ body {
     /* couleur de fond */
     background-color: #fafbfb;
     /* utilisation de la police définie plus haut */
-    font-family: opendyslexic3regular;
+    font-family: 'opendyslexic3regular';
     /* taille de la police */
     font-size: 70%;
     /* couleur de la police */
     color: #000000;
 }
+
+
+/*------------------------------------------------------------- Liens */
 
 a:link {
     /* suppression de la ligne sous les liens */
@@ -48,7 +51,7 @@ a:hover {
 }
 
 
-/* Header */
+/*------------------------------------------------------------ Header */
 
 header {
     /* couleur du fond */
@@ -65,7 +68,7 @@ header {
 }
 
 
-/* Logo */
+/*-------------------------------------------------------------- Logo */
 
 #logo {
     /* flexibilité des éléments */
@@ -92,7 +95,7 @@ header h1 {
 }
 
 
-/* Navigation */
+/*-------------------------------------------------------- Navigation */
 
 nav ul {
     /* Masque les puces */
@@ -124,7 +127,7 @@ nav a:hover {
 }
 
 
-/* Bannière */
+/*---------------------------------------------------------- Bannière */
 
 #banniere_image {
     /* lien du fond */
@@ -174,7 +177,7 @@ nav a:hover {
 }
 
 
-/* Corps */
+/* Partie présentation */
 
 #blocPres {
     /* flexibilité des éléments */
@@ -184,20 +187,30 @@ nav a:hover {
 }
 
 #pres h2 {
-    /* espace horizontal à gauche */
-    margin-left: 45%;
-    /* espace horizontal en haut */
-    margin-top: 5%;
     /* met le texte en majuscule */
     text-transform: uppercase;
+    /* taille de la police */
+    font-size: 130%;
+    /* alignement au centre du texte */
+    text-align: center;
+    /* espace horizontal en haut */
+    margin-top: 5%;
+    /* espace horizontal en bas */
+    margin-bottom: 5%;
+    /* espace horizontal à gauche */
+    margin-left: auto;
+    /* espace horizontal à droite */
+    margin-right: auto;
+    /* taille de la police */
+    font-size: 160%;
 }
 
-section {
+#pres {
     /* espace horizontal en bas */
     margin-bottom: 10%;
 }
 
-article,
+#pres article,
 aside {
     /* texte justifié */
     text-align: justify;
@@ -205,25 +218,14 @@ aside {
     margin-top: 1%;
 }
 
-article h2,
-aside h2 {
-    /* met le texte en majuscule */
-    text-transform: uppercase;
-    /* taille de la police */
-    font-size: 130%;
-    /* alignement au centre du texte */
-    text-align: center;
-}
-
-
-/* Article */
-
-section h2 {
+#pres h2 {
+    /* espace horizontal à gauche */
     margin-left: auto;
+    /* espace horizontal à droite */
     margin-right: auto;
 }
 
-article {
+#blocPres article {
     /* génère une boîte de bloc ce qui ajoute des 
     passages à la ligne avant et après l'élément dans le flux normal */
     display: block;
@@ -231,7 +233,7 @@ article {
     margin-left: 5%;
 }
 
-article h2 img {
+#blocPres article h2 img {
     /* largeur */
     width: 50%;
     /* hauteur */
@@ -240,7 +242,7 @@ article h2 img {
     padding-top: 10%;
 }
 
-article p {
+#blocPres article p {
     /* définit la hauteur entre les lignes */
     line-height: 250%;
     /* texte justifié */
@@ -346,85 +348,6 @@ aside a img {
 
 /* Articles */
 
-#articlesbis {
-    /* couleur de fond */
-    background-color: white;
-    /* ajoute des ombres à la boîte d'un élément */
-    box-shadow: 0px 3px 7px #1c1a19;
-    /* permet de définir des coins arrondis
-    pour la bordure d'un élément */
-    border-radius: 5px;
-    /* couleur de la police */
-    color: #32c781;
-    /* largeur */
-    width: 30%;
-    /* hauteur */
-    height: 30%;
-    /* texte justifié */
-    text-align: justify;
-    /* espace horizontal en haut */
-    margin-top: 10%;
-    /* espace horizontal à gauche */
-    margin-left: 3%;
-    /* espace autour d'un bloc */
-    padding: 5%;
-    /* définit la hauteur entre les lignes */
-    line-height: 250%;
-}
-
-#articlesbis a {
-    /* couleur des liens */
-    color: #000000
-}
-
-#articlesbis a:hover {
-    /* couleur des liens au passage du curseur */
-    color: #3578E5
-}
-
-#articlesbis h2 {
-    /* met le texte en majuscule */
-    text-transform: uppercase;
-    /* taille de la police */
-    font-size: 130%;
-}
-
-#articlesone {
-    /* couleur de fond */
-    background-color: #32c781;
-    /* ajoute des ombres à la boîte d'un élément */
-    box-shadow: 0px 3px 7px #1c1a19;
-    /* permet de définir des coins arrondis
-    pour la bordure d'un élément */
-    border-radius: 5px;
-    /* couleur de la police */
-    color: white;
-    /* largeur */
-    width: 30%;
-    /* hauteur */
-    height: 30%;
-    /* texte justifié */
-    text-align: justify;
-    /* espace horizontal en haut */
-    margin-top: 10%;
-    /* espace autour d'un bloc */
-    padding: 5%;
-    /* définit la hauteur entre les lignes */
-    line-height: 250%;
-    /* espace horizontal à gauche */
-    margin-left: 3%;
-}
-
-#articlesone a {
-    /* couleur des liens */
-    color: #000000
-}
-
-#articlesone a:hover {
-    /* couleur des liens au passage du curseur */
-    color: #3578E5
-}
-
 #articles h2 {
     /* met le texte en majuscule */
     text-transform: uppercase;
@@ -432,26 +355,23 @@ aside a img {
     font-size: 130%;
     /* alignement au centre du texte */
     text-align: center;
-}
-
-#articles div {
-    /* flexibilité des éléments */
-    display: flex;
-    /* La direction suit une ligne */
-    flex-direction: row;
-    /* espace horizontal à gauche */
-    /* margin-left: 9%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #CapTeX {
     /* hauteur */
-    height: 50%;
+    height: 25%;
     /* largeur */
-    width: 100%;
+    width: 80%;
     /* espace horizontal en haut */
     margin-top: 5%;
     /* espace horizontal en bas */
     margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #caperr {
