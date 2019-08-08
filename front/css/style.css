@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 
-/* Partie présentation */
+/*----------------------------------------------- Partie présentation */
 
 #blocPres {
     /* flexibilité des éléments */
@@ -280,7 +280,7 @@ aside {
 }
 
 
-/* Aside */
+/*------------------------------------------------------------- Aside */
 
 #reseaux {
     /* positionné dans le flux normal du document */
@@ -334,7 +334,7 @@ aside {
     height: 50%;
 }
 
-aside a img {
+#reseaux a img {
     /* espace horizontal à droite */
     margin-right: auto;
     /* espace horizontal à gauche */
@@ -346,7 +346,7 @@ aside a img {
 }
 
 
-/* Articles */
+/*---------------------------------------------------------- Articles */
 
 #articles h2 {
     /* met le texte en majuscule */
@@ -357,8 +357,11 @@ aside a img {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#articles p {
+    text-align: justify;
+    text-align: center;
 }
 
 #CapTeX {
@@ -380,7 +383,7 @@ aside a img {
 }
 
 
-/* Footer */
+/*------------------------------------------------------------ Footer */
 
 footer {
     /* couleur de fond */
