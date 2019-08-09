@@ -396,9 +396,9 @@ footer {
     /* hauteur */
     height: 10%;
     /* espace horizontal à gauche */
-    margin-left: 50%;
+    margin-left: 49%;
     /* espace horizontal à droite */
-    margin-right: 50%;
+    margin-right: auto;
     /* espace nécessaire en haut d'un élément */
     padding-top: 1%;
     /* espace nécessaire en bas d'un élément */
