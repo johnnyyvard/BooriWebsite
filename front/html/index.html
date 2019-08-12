@@ -100,10 +100,19 @@
                 <p>Je suis à la fin du cours
                     <a class="link" href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">
                         Openclassrooms</a> qui m'a permis de créer ce site et je teste, dans cet article, les différentes options de formulaires html.
-                    <br>Comme spécifié dans le cours, j'arrive à la limite du html.
+                    <br>Comme spécifié dans le cours, j'arrive à la limite du html car pour traiter les informations que les visiteurs du site renseigneront, il faut utiliser un autre langage comme PHP.
                 </p>
-                <form>
-                    <p>Texte à l'intérieur du formulaire</p>
+                <form method="POST" action="traitement.php"><br>
+                    <p>Le formulaire qui suit est une zone de texte où un utilisateur peut, par exemple, saisir son pseudo.
+                        <br>N'hésitez pas à tester.
+                        <br>Vous remarquerez qu'en cliquant sur le texte "Votre pseudo", le curseur se place automatiquement dans la zone de texte.
+                        <br/><br/>
+                        <label for="pseudo">Votre pseudo: </label>
+                        <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Johnny49" size="30" maxlength="10" />
+                        <br/> <br/> Ceci est une zone de mot de passe et vous remarquerez que ce que vous renseigner ne sera pas visible.
+
+
+                    </p>
                 </form>
                 <br>
                 <p>Vendredi 09 août 2019</p>
