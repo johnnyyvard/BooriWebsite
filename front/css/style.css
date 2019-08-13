@@ -27,7 +27,7 @@ body {
     /* utilisation de la police définie plus haut */
     font-family: 'opendyslexic3regular';
     /* taille de la police */
-    font-size: 70%;
+    font-size: 14px;
     /* couleur de la police */
     color: #000000;
 }
@@ -118,7 +118,7 @@ nav a {
     /* espace nécessaire à la droite d'un élément */
     padding-right: 90%;
     /* taille de la police */
-    font-size: 150%;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -190,7 +190,7 @@ nav a:hover {
     /* met le texte en majuscule */
     text-transform: uppercase;
     /* taille de la police */
-    font-size: 130%;
+    font-size: 18px;
     /* alignement au centre du texte */
     text-align: center;
     /* espace horizontal en haut */
@@ -201,8 +201,6 @@ nav a:hover {
     margin-left: auto;
     /* espace horizontal à droite */
     margin-right: auto;
-    /* taille de la police */
-    font-size: 160%;
 }
 
 #pres {
@@ -352,7 +350,7 @@ aside {
     /* met le texte en majuscule */
     text-transform: uppercase;
     /* taille de la police */
-    font-size: 130%;
+    font-size: 18px;
     /* alignement au centre du texte */
     text-align: center;
     margin-top: 5%;
