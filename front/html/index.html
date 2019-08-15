@@ -53,16 +53,19 @@
                             <h2>Étudiant en conception et développement d'applications</h2>
                         </div>
                         <p>
-                            J'ai décidé en juin 2017, après 19 ans de restauration, de me reconvertir dans l'informatique. Suite à un
-                            <br/> bilan de compétences confirmant ma décision, j'ai commencé à coder. Ce site est le premier que je créé.
-                            <br/>Il m'a fallu du temps pour le concevoir. Il n'est pas sous sa forme aboutie et évoluera au fil du temps.
-                            <br/>La police que j'utilise pour ce site est l'<a class="link" href="https://opendyslexic.org/">Opendyslexic3</a>. C'est une police de caractères libre qui améliore
-                            <br/>la clareté et qui évite les confusions de lecture chez les enfants dyslexiques. Je vous donnerais quelques
-                            <br/>précisions sur ma reconversion professionnelle dans un article et vous parlerais des technologies et sujets
-                            <br/>qui me tiennent à coeur. Vous pouvez me contacter sur tous sujets en cliquant sur
-                            <a href="mailto:johnnyyvard@me.com">Contact</a> un peu partout
-                            <br/>sur le site. Je suis également présent sur les réseaux que vous trouverez à droite de ce texte de
-                            <br/>présentation. Cliquez directement sur les icônes pour vous rendre sur mes profils. À très vite!!!
+                            J'ai décidé en juin 2017, après 19 ans de restauration, de me reconvertir dans
+                            <br/> l'informatique. Suite à un bilan de compétences confirmant ma décision, j'ai
+                            <br/> commencé à coder. Ce site est le premier que je créé. Il m'a fallu du
+                            <br/> temps pour le concevoir. Il n'est pas sous sa forme aboutie et évoluera au
+                            <br/> fil du temps. La police que j'utilise pour ce site est l'<a class="link" href="https://opendyslexic.org/">Opendyslexic3</a>.
+                            <br/> C'est une police de caractères libre qui améliore la clareté et qui évite les
+                            <br/> confusions de lecture chez les enfants dyslexiques. Je vous donnerais quelques
+                            <br/> précisions sur ma reconversion professionnelle dans un article et vous
+                            <br/> parlerais des technologies et sujets qui me tiennent à coeur. Vous pouvez me
+                            <br/> contacter sur tous sujets en cliquant sur <a href="mailto:johnnyyvard@me.com">Contact</a> un peu partout sur le site.
+                            <br/> Je suis également présent sur les réseaux que vous trouverez à droite
+                            <br/> de ce texte de présentation. Cliquez directement sur les icônes pour vous rendre
+                            <br/> sur mes profils. À très vite!!!
                         </p>
                     </div>
                 </article>
@@ -98,58 +101,79 @@
         </section>
         <section id="articles">
             <h2>Articles</h2>
-            <article>
-                <h2>Les différentes options de formulaire html</h2>
-                <p>Je suis à la fin du cours
-                    <a class="link" href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">
-                        Openclassrooms</a> qui m'a permis de créer ce site et je teste, dans cet article, les différentes options de formulaires html.
-                    <br>Comme spécifié dans le cours, j'arrive à la limite du html car pour traiter les informations que les visiteurs du site renseigneront, il faut utiliser un autre langage comme PHP.
-                </p>
-                <form method="POST" action="traitement.php"><br>
-                    <p>Le formulaire qui suit est une zone de texte où un utilisateur peut, par exemple, saisir son pseudo.
-                        <br>N'hésitez pas à tester.
-                        <br>Vous remarquerez qu'en cliquant sur le texte "Votre pseudo", le curseur se place automatiquement dans la zone de texte.
-                        <br/><br/>
-                        <label for="pseudo">Votre pseudo: </label>
-                        <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Johnny49" size="30" maxlength="10" />
-                        <br/> <br/> Ceci est une zone de mot de passe et vous remarquerez que ce que vous renseigner ne sera pas visible.
-
-
+            <div id="html">
+                <article>
+                    <h2>Les différentes options de formulaire html</h2>
+                    <p>Je suis à la fin du cours
+                        <a class="link" href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">
+                            Openclassrooms</a> qui m'a permis de créer ce site et je teste, dans cet article, les différentes options de formulaires "html".
+                        <br>Comme spécifié dans le cours, j'arrive à la limite du "html" car pour traiter les informations que les visiteurs du site renseigneront, il faut utiliser un autre langage comme PHP.
                     </p>
-                </form>
-                <br>
-                <p>Vendredi 09 août 2019</p>
-            </article>
+                    <form method="POST" action="traitement.php"><br>
+                        <p>Le formulaire qui suit est une zone de texte où un utilisateur peut, par exemple, saisir son pseudo.
+                            <br>N'hésitez pas à tester.
+                            <br>Vous remarquerez qu'en cliquant sur le texte "Votre pseudo", le curseur se place automatiquement dans la zone de texte.
+                            <br/><br/>
+                            <label for="pseudo">Votre pseudo: </label>
+                            <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Johnny49" size="30" maxlength="10" />
+                            <br/><br/> La zone suivante est utilisée pour saisir un mot de passe et vous remarquerez que celui-ci ne sera pas visible.
+                            <br/><br/>
+                            <label for="pass">Votre mot de passe: </label>
+                            <input type="password" name="pass" id="pass" />
+                            <br/><br/>
+                            <label for="multiligne">La zone de texte qui suit est spécifique au texte multiligne.</label><br/><br/>
+                            <textarea name="multiligne" id="multiligne" rows="5" cols="50">On peut y écrire plusieurs lignes de texte sans limite! Je vous laisse faire le test.</textarea>
+                            <br/><br/> La zone suivante est une zone pour renseigner une adresse email.
+                            <br/> Même si elle paraît identique en tout point avec une zone de texte, le navigateur saura à quelle catégorie elle appartient.
+                            <br/><br/>
+                            <input type="email" />
+                            <br/><br/> Le navigateur saura que la suivante est pour renseigner une url.
+                            <br/><br/>
+                            <input type="url" />
+                            <br/><br/>Celle-ci sera pour un numéro de téléphone.
+                            <br/><br/>
+                            <input type="tel" />
+                            <br/><br/>Si vous testez les 3 dernières zones de texte sur un iPhone, vous verrez que votre clavier s'adaptera au type de champ.
+                        </p>
+                    </form>
+                    <br>
+                    <p>Vendredi 09 août 2019</p>
+                </article>
+            </div>
             <article>
                 <h2>Informations sur ma reconversion professionnelle</h2>
                 <p>J'ai effectué mon bilan de compétences chez
                     <a class="link" href="https://dynamirh.fr/"> Dynam IRH </a> avec l'excellent
                     <a class="link" href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-bernier-9864a16a/">
                         Frédéric
-                        BERNIER</a>.<br> Je suis des cours sur le site
+                        BERNIER</a>.
+                    <br> Je suis des cours sur le site
                     <a class="link" href="https://openclassrooms.com/fr/dashboard"> Openclassrooms</a> mais également sur le campus
                     <a class="link" href="https://www.imie.fr/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNv3633YPP6yKH-cletXpiUgeqxvhMOAGbp5NMi2EdUxUKo5SDpMhMBoC-DEQAvD_BwE">
-                        IMIE</a>, le tout sur Nantes. Je suis en contrat de professionnalisation chez
+                        IMIE</a>, le tout sur Nantes.
+                    <br/> Je suis en contrat de professionnalisation chez
                     <a class="link" href="https://solution-de-gestion.fr/"> Gest'innov</a> depuis octobre 2018.
                     <br><br> 10 juillet 2019
                 </p>
             </article>
-            <article>
-                <h2>Fichier non trouvé à la compilation sur TeXmaker</h2>
-                <p>J'ai récemment dû fournir un compte rendu de projet et pour cela, j'ai remis le nez dans TeXmaker qui fournit des pdf de grandes qualités.
-                    <br>Sauf qu'il y avait presque un an que je n'avais pas pris l'outil en main et j'ai un peu ramé à compiler mon fichier pour créer mon pdf.
-                    <br>Dans ces cas, Google est ton ami mais on y trouve aussi de tout.
-                    <br>J'ai finalement réussi à trouver une solution, mais çà m'a tellement pris de temps que je me suis dit "pourquoi ne pas faire un article".
-                    <br>Comme vous vous en doutez, je suis sur MacOS Mojave, jusq'au mois de septembre, avant de passer sur Catalina.
-                    <br> Lorsque je sélectionnais dans un premier temps la flèche d'exécution à gauche de "LaTeX" et dans un second temps la flèche pour visionner le pdf à gauche de "Voir PDF", comme suit:
-                    <br>
-                    <img src="../images/CaptureLaTeX.png" alt="Capture TeXmaker" id="CapTeX">
-                    <br>J'avais le message d'erreur suivant:<br><br>
-                    <br><img src="../images/erreurFichierNonTrouve.png" alt="Message d'erreur" id="caperr">
-                    <br><br>Après de nombreuses recherches, j'ai enfin découvert qu'il fallait faire un F6 avant de cliquer sur la flèche à gauche de "Voir PDF".<br><br>Tout simplement!
-                    <br><br>Mercredi 12 juin 2019
-                </p>
-            </article>
+            <div id="texmaker">
+                <article>
+                    <h2>Fichier non trouvé à la compilation sur TeXmaker</h2>
+                    <p>J'ai récemment dû fournir un compte rendu de projet et pour cela, j'ai remis le nez dans TeXmaker qui fournit des pdf de grandes qualités.
+                        <br>Sauf qu'il y avait presque un an que je n'avais pas pris l'outil en main et j'ai un peu ramé à compiler mon fichier pour créer mon pdf.
+                        <br>Dans ces cas, Google est ton ami mais on y trouve aussi de tout.
+                        <br>J'ai finalement réussi à trouver une solution, mais çà m'a tellement pris de temps que je me suis dit "pourquoi ne pas faire un article".
+                        <br>Comme vous vous en doutez, je suis sur MacOS Mojave, jusq'au mois de septembre, avant de passer sur Catalina.
+                        <br> Lorsque je sélectionnais dans un premier temps la flèche d'exécution à gauche de "LaTeX" et dans un second temps la flèche pour visionner le pdf à gauche de "Voir PDF", comme suit:
+                        <br>
+                        <img src="../images/CaptureLaTeX.png" alt="Capture TeXmaker" id="CapTeX">
+                        <br>J'avais le message d'erreur suivant:<br><br>
+                        <br><img src="../images/erreurFichierNonTrouve.png" alt="Message d'erreur" id="caperr">
+                        <br><br>Après de nombreuses recherches, j'ai enfin découvert qu'il fallait faire un F6 avant de cliquer sur la flèche à gauche de "Voir PDF".<br><br>Tout simplement!
+                        <br><br>Mercredi 12 juin 2019
+                    </p>
+                </article>
+            </div>
         </section>
         <footer>
             <div id="logo_footer">

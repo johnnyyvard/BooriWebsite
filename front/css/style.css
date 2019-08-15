@@ -346,6 +346,14 @@ aside {
 
 /*---------------------------------------------------------- Articles */
 
+#html {
+    background-color: honeydew;
+}
+
+#texmaker {
+    background-color: honeydew;
+}
+
 #articles h2 {
     /* met le texte en majuscule */
     text-transform: uppercase;
