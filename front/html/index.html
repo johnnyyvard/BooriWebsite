@@ -165,12 +165,49 @@
                             <br/><br/>
                             <input type="search" />
                             <br/><br/>Nous avons ensuite les cases à cocher, à plusieurs options.
-                            <br/><br/>Quels sont les super-héros que vous aimez?
+                            <br/><br/>Quels sont les héros STAR WARS que vous aimez?
                             <br/><br/>
-                            <input type="checkbox" name="captainamerica" id="captainamerica" checked/><label>Captain America</label><br/>
-                            <input type="checkbox" name="thor" id="thor" /><label>Thor</label><br/>
-                            <input type="checkbox" name="hulk" id="hulk" /><label>Hulk</label><br/>
-                            <input type="checkbox" name="ironman" id="ironman" checked/><label>Iron Man</label><br/>
+                            <input type="checkbox" name="LukeSKYWALKER" id="LukeSKYWALKER" checked/><label>Luke SKYWALKER</label><br/>
+                            <input type="checkbox" name="LeiaORGANA" id="LeiaORGANA" /><label>Leia ORGANA</label><br/>
+                            <input type="checkbox" name="HanSOLO" id="HanSOLO" checked/><label>Han SOLO</label><br/>
+                            <input type="checkbox" name="LandoCALRISSIAN" id="LandoCALRISSIAN" /><label>Lando CALRISSIAN</label><br/>
+                            <br/><br/>Les zones d'options permettent de faire un seul choix parmi une liste de possibilités.
+                            <br/><br/>Quel est le super-héros MARVEL que vous préférez?
+                            <br/><br/>
+                            <input type="radio" name="Marvel" value="steverogers" id="steverogers" checked/><label for="steverogers">Captain America</label><br/>
+                            <input type="radio" name="Marvel" value="asgard" id="asgard" /><label for="asgard">Thor</label><br/>
+                            <input type="radio" name="Marvel" value="brucebanner" id="brucebanner" /><label for="brucebanner">Hulk</label><br/>
+                            <input type="radio" name="Marvel" value="tonystark" id="tonystark" /><label for="tonystark">Iron Man</label><br/>
+                            <br/><br/>Quel est le super-héros DC que vous préférez?
+                            <br/><br/>
+                            <input type="radio" name="DC" value="Batman" id="Batman" /><label for="Batman">Batman</label><br/>
+                            <input type="radio" name="DC" value="Superman" id="Superman" checked/><label for="Superman">Superman</label><br/>
+                            <input type="radio" name="DC" value="Aquaman" id="Aquaman" /><label for="Aquaman">Aquaman</label><br/>
+                            <input type="radio" name="DC" value="GreenLantern" id="GreenLantern" /><label for="GreenLantern">Green Lantern</label><br/>
+                            <br/><br/>Il existe aussi les listes déroulantes.
+                            <br/><br/>
+                            <label for="hero">Quel est votre super-héros préféré?</label>
+                            <br/><br/>
+                            <select name="hero" id="hero">
+                                <optgroup label="MARVEL">
+                                    <option value="CaptainAmerica" selected>Captain America</option>
+                                    <option value="Thor">Thor</option>
+                                    <option value="Hulk">Hulk</option>
+                                    <option value="Iron Man">Iron Man</option>
+                                </optgroup>
+                                <optgroup label="DC">
+                                    <option value="Batman">Batman</option>
+                                    <option value="Superman" >Superman</option>
+                                    <option value="Aquaman">Aquaman</option>
+                                    <option value="GreenLantern">Green Lantern</option>
+                                </optgroup>
+                                <optgroup label="STAR WARS">
+                                    <option value="Luke SKYWALKER">Luke SKYWALKER</option>
+                                    <option value="Leia ORGANA">Leia ORGANA</option>
+                                    <option value="Han SOLO" >Han SOLO</option>
+                                    <option value="Lando CALRISSIAN">Lando CALRISSIAN</option>
+                                </optgroup>
+                            </select>
                         </p>
                     </form>
                     <br>

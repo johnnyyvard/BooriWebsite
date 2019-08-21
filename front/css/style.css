@@ -1,4 +1,4 @@
-/*------------------------------------------- Définition de la police */
+/*----------------------------------------------------------------------- Définition de la police */
 
 @font-face {
     /* famille de la police */
@@ -12,7 +12,7 @@
 }
 
 
-/*------------------------------------- Éléments principaux de la page*/
+/*--------------------------------------------------------------------- Éléments principaux de la page*/
 
 #bloc_page {
     /* largeur de la page */
@@ -33,7 +33,7 @@ body {
 }
 
 
-/*------------------------------------------------------------- Liens */
+/*---------------------------------------------------------------------------------- Liens */
 
 a:link {
     /* suppression de la ligne sous les liens */
@@ -51,7 +51,7 @@ a:hover {
 }
 
 
-/*------------------------------------------------------------ Header */
+/*----------------------------------------------------------------------------------- Header */
 
 header {
     /* couleur du fond */
@@ -68,7 +68,7 @@ header {
 }
 
 
-/*-------------------------------------------------------------- Logo */
+/*----------------------------------------------------------------------------------- Logo */
 
 #logo {
     /* flexibilité des éléments */
@@ -95,7 +95,7 @@ header h1 {
 }
 
 
-/*-------------------------------------------------------- Navigation */
+/*--------------------------------------------------------------------------------- Navigation */
 
 nav ul {
     /* Masque les puces */
@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 
-/*---------------------------------------------------------- Bannière */
+/*----------------------------------------------------------------------------------- Bannière */
 
 #banniere_image {
     /* lien du fond */
@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 
-/*----------------------------------------------- Partie présentation */
+/*------------------------------------------------------------------------------------- Partie présentation */
 
 #blocPres {
     /* flexibilité des éléments */
@@ -278,7 +278,7 @@ aside {
 }
 
 
-/*------------------------------------------------------------- Aside */
+/*------------------------------------------------------------------------ Aside */
 
 #reseaux {
     /* positionné dans le flux normal du document */
@@ -344,15 +344,7 @@ aside {
 }
 
 
-/*---------------------------------------------------------- Articles */
-
-#html {
-    background-color: honeydew;
-}
-
-#texmaker {
-    background-color: honeydew;
-}
+/*---------------------------------------------------------------------------- Articles */
 
 #articles h2 {
     /* met le texte en majuscule */
@@ -361,13 +353,25 @@ aside {
     font-size: 18px;
     /* alignement au centre du texte */
     text-align: center;
+    /* espace horizontal en haut */
     margin-top: 5%;
+    /* espace horizontal en bas */
     margin-bottom: 5%;
 }
 
 #articles p {
+    /* texte justifié */
     text-align: justify;
+    /* alignement au centre du texte */
     text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------Article texmaker*/
+
+#texmaker {
+    /* couleur de fond */
+    background-color: honeydew;
 }
 
 #CapTeX {
@@ -379,7 +383,9 @@ aside {
     margin-top: 5%;
     /* espace horizontal en bas */
     margin-bottom: 2%;
+    /* espace horizontal à gauche */
     margin-left: auto;
+    /* espace horizontal à droite */
     margin-right: auto;
 }
 
@@ -388,20 +394,66 @@ aside {
     text-align: center;
 }
 
-#hulk {
+
+/*------------------------------------------------------------------------------Article html*/
+
+#html {
+    /* couleur de fond */
+    background-color: honeydew;
+}
+
+#LukeSKYWALKER {
+    /* espace horizontal à gauche */
+    margin-left: -0.3%
+}
+
+#LeiaORGANA {
+    /* espace horizontal à gauche */
+    margin-left: -2.5%;
+}
+
+#HanSOLO {
+    /* espace horizontal à gauche */
+    margin-left: -4.3%
+}
+
+#asgard {
+    /* espace horizontal à gauche */
+    margin-left: -5.7%
+}
+
+#brucebanner {
+    /* espace horizontal à gauche */
     margin-left: -5.9%
 }
 
-#thor {
-    margin-left: -5.8%;
+#tonystark {
+    /* espace horizontal à gauche */
+    margin-left: -3.5%
 }
 
-#ironman {
-    margin-left: -3.4%
+#Batman {
+    /* espace horizontal à gauche */
+    margin-left: -3.5%
+}
+
+#Superman {
+    /* espace horizontal à gauche */
+    margin-left: -2.3%
+}
+
+#Aquaman {
+    /* espace horizontal à gauche */
+    margin-left: -2.5%
+}
+
+#GreenLantern {
+    /* espace horizontal à gauche */
+    margin-left: 0.3%
 }
 
 
-/*------------------------------------------------------------ Footer */
+/*------------------------------------------------------------------------------ Footer */
 
 footer {
     /* couleur de fond */
