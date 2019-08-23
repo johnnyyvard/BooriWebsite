@@ -129,6 +129,7 @@
                         <fieldset>
                             <legend>La zone de texte qui suit est spécifique au texte multiligne.</legend>
                             <p>
+                                <label for="multiligne"></label>
                                 <textarea name="multiligne" id="multiligne" rows="5" cols="50">On peut y écrire plusieurs lignes de texte sans limite! Je vous laisse faire le test.</textarea>
                             </p>
                         </fieldset>
@@ -159,64 +160,43 @@
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Là, nous pouvons renseigner une couleur.</legend>
+                            <legend>Ceci est un champ de recherche.</legend>
                             <p>
-                                <input type="color" />
+                                <input type="search" />
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Ici, une date.</legend>
-                            <p>
-                                <input type="date" />
+                            <legend>Nous avons ensuite les cases à cocher, à plusieurs options.</legend>
+                            <p>Quels sont les héros STAR WARS que vous aimez?
+                                <br/><br/>
+                                <input type="checkbox" name="LukeSKYWALKER" id="LukeSKYWALKER" checked/><label>Luke SKYWALKER</label><br/>
+                                <input type="checkbox" name="LeiaORGANA" id="LeiaORGANA" /><label>Leia ORGANA</label><br/>
+                                <input type="checkbox" name="HanSOLO" id="HanSOLO" checked/><label>Han SOLO</label><br/>
+                                <input type="checkbox" name="LandoCALRISSIAN" id="LandoCALRISSIAN" /><label>Lando CALRISSIAN</label><br/>
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Cette zone sert à renseigner l'heure.</legend>
-                            <p>
-                                <input type="time" />
+                            <legend>Les zones d'options permettent de faire un seul choix parmi une liste de possibilités.</legend>
+                            <p>Quel est le super-héros MARVEL que vous préférez?
+                                <br/><br/>
+                                <input type="radio" name="Marvel" value="steverogers" id="steverogers" checked/><label for="steverogers">Captain America</label><br/>
+                                <input type="radio" name="Marvel" value="asgard" id="asgard" /><label for="asgard">Thor</label><br/>
+                                <input type="radio" name="Marvel" value="brucebanner" id="brucebanner" /><label for="brucebanner">Hulk</label><br/>
+                                <input type="radio" name="Marvel" value="tonystark" id="tonystark" /><label for="tonystark">Iron Man</label><br/>
+                                <br/><br/>Quel est le super-héros DC que vous préférez?
+                                <br/><br/>
+                                <input type="radio" name="DC" value="Batman" id="Batman" /><label for="Batman">Batman</label><br/>
+                                <input type="radio" name="DC" value="Superman" id="Superman" checked/><label for="Superman">Superman</label><br/>
+                                <input type="radio" name="DC" value="Aquaman" id="Aquaman" /><label for="Aquaman">Aquaman</label><br/>
+                                <input type="radio" name="DC" value="GreenLantern" id="GreenLantern" /><label for="GreenLantern">Green Lantern</label><br/>
                             </p>
                         </fieldset>
-                        <p>
-                            <br/><br/>Celle-ci, la semaine.
-                            <br/><br/>
-                            <input type="week" />
-                            <br/><br/>Celle-ci, le mois.
-                            <br/><br/>
-                            <input type="month" />
-                            <br/><br/>Cette zone sert à renseigner la date et l'heure avec gestion du décalage horaire.
-                            <br/><br/>
-                            <input type="datetime" />
-                            <br/><br/>Sans gestion du décalage horaire.
-                            <br/><br/>
-                            <input type="datetime-local" />
-                            <br/><br/>Ceci est un champ de recherche.
-                            <br/><br/>
-                            <input type="search" />
-                            <br/><br/>Nous avons ensuite les cases à cocher, à plusieurs options.
-                            <br/><br/>Quels sont les héros STAR WARS que vous aimez?
-                            <br/><br/>
-                            <input type="checkbox" name="LukeSKYWALKER" id="LukeSKYWALKER" checked/><label>Luke SKYWALKER</label><br/>
-                            <input type="checkbox" name="LeiaORGANA" id="LeiaORGANA" /><label>Leia ORGANA</label><br/>
-                            <input type="checkbox" name="HanSOLO" id="HanSOLO" checked/><label>Han SOLO</label><br/>
-                            <input type="checkbox" name="LandoCALRISSIAN" id="LandoCALRISSIAN" /><label>Lando CALRISSIAN</label><br/>
-                            <br/><br/>Les zones d'options permettent de faire un seul choix parmi une liste de possibilités.
-                            <br/><br/>Quel est le super-héros MARVEL que vous préférez?
-                            <br/><br/>
-                            <input type="radio" name="Marvel" value="steverogers" id="steverogers" checked/><label for="steverogers">Captain America</label><br/>
-                            <input type="radio" name="Marvel" value="asgard" id="asgard" /><label for="asgard">Thor</label><br/>
-                            <input type="radio" name="Marvel" value="brucebanner" id="brucebanner" /><label for="brucebanner">Hulk</label><br/>
-                            <input type="radio" name="Marvel" value="tonystark" id="tonystark" /><label for="tonystark">Iron Man</label><br/>
-                            <br/><br/>Quel est le super-héros DC que vous préférez?
-                            <br/><br/>
-                            <input type="radio" name="DC" value="Batman" id="Batman" /><label for="Batman">Batman</label><br/>
-                            <input type="radio" name="DC" value="Superman" id="Superman" checked/><label for="Superman">Superman</label><br/>
-                            <input type="radio" name="DC" value="Aquaman" id="Aquaman" /><label for="Aquaman">Aquaman</label><br/>
-                            <input type="radio" name="DC" value="GreenLantern" id="GreenLantern" /><label for="GreenLantern">Green Lantern</label><br/>
-                            <br/><br/>Il existe aussi les listes déroulantes.
-                            <br/><br/>
-                            <label for="hero">Quel est votre super-héros préféré?</label>
-                            <br/><br/>
-                            <select name="hero" id="hero">
+                        <fieldset>
+                            <legend>Il existe aussi les listes déroulantes.</legend>
+                            <p>
+                                <label for="hero">Quel est votre super-héros préféré?</label>
+                                <br/><br/>
+                                <select name="hero" id="hero">
                                     <optgroup label="MARVEL">
                                         <option value="CaptainAmerica" selected>Captain America</option>
                                         <option value="Thor">Thor</option>
@@ -236,7 +216,14 @@
                                         <option value="Lando CALRISSIAN">Lando CALRISSIAN</option>
                                     </optgroup>
                                 </select>
-                        </p>
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Ce dernier bouton sert à envoyer les informations renseignées dans les champs précédents</legend>
+                            <p>
+                                <input type="reset" value="Envoyer" />
+                            </p>
+                        </fieldset>
                     </form>
                     <br>
                     <p>Vendredi 09 août 2019</p>
