@@ -277,6 +277,13 @@ aside {
     margin-top: 3%;
 }
 
+#presentation {
+    /* largeur */
+    width: 750px;
+    /* hauteur */
+    height: 550px;
+}
+
 
 /*------------------------------------------------------------------------ Aside */
 
@@ -293,9 +300,9 @@ aside {
     /* couleur de la police */
     color: white;
     /* largeur */
-    width: 25%;
+    width: 750px;
     /* hauteur */
-    height: 25%;
+    height: 550px;
     /* Les éléments flexibles sont regroupés à la fin */
     align-items: flex-end;
     /* alignement au centre du texte */
@@ -481,26 +488,50 @@ footer {
 /* -------------------------------------------------------------------------Responsive design */
 
 @media all and (max-width: 1024px) {
+    /*----------------------------------- Éléments principaux de la page*/
     #bloc_page {
+        /* largeur */
         width: auto;
     }
+    /*-----------------------------------------------Logo */
+    h1 {
+        /* taille de la police */
+        font-size: 18px;
+    }
+    #téléphone {
+        /* largeur */
+        width: 15%;
+        /* hauteur  */
+        height: 15%;
+        /* définit l'espace vertical pour 
+        la marge appliquée en haut de l'élément */
+        margin-top: 15%;
+    }
+    /*------------------------------------------- Navigation */
     nav {
+        /* largeur */
         width: auto;
+        /* alignement à gauche du texte */
         text-align: left;
     }
     nav ul {
+        /* La direction suit une colonne */
         flex-direction: column;
     }
     nav li {
+        /* espace nécessaire à la gauche d'un élément */
         padding-left: 125px;
     }
     nav a {
-        font-size: 1.1em;
+        /* taille de la police */
+        font-size: 14px;
     }
     nav a:hover {
+        /* Bordure en dessous */
         border-bottom: 0;
     }
     #banniere_image {
+        /* Masquage */
         display: none;
     }
 }
