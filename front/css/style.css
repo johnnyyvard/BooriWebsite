@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------- Définition de la police */
+/*------------- Définition de la police -------------*/
 
 @font-face {
     /* famille de la police */
@@ -12,7 +12,7 @@
 }
 
 
-/*--------------------------------------------------------------------- Éléments principaux de la page*/
+/*---------- Éléments principaux de la page ----------*/
 
 #bloc_page {
     /* largeur de la page */
@@ -33,7 +33,7 @@ body {
 }
 
 
-/*---------------------------------------------------------------------------------- Liens */
+/*----------------------- Liens -----------------------*/
 
 a:link {
     /* suppression de la ligne sous les liens */
@@ -51,7 +51,7 @@ a:hover {
 }
 
 
-/*----------------------------------------------------------------------------------- Header */
+/*----------------------- Header -----------------------*/
 
 header {
     /* couleur du fond */
@@ -68,7 +68,7 @@ header {
 }
 
 
-/*----------------------------------------------------------------------------------- Logo */
+/*------------------------ Logo ------------------------*/
 
 #logo {
     /* flexibilité des éléments */
@@ -90,7 +90,7 @@ header {
 }
 
 
-/*--------------------------------------------------------------------------------- Navigation */
+/*--------------------- Navigation ---------------------*/
 
 nav ul {
     /* Masque les puces */
@@ -122,7 +122,7 @@ nav a:hover {
 }
 
 
-/*----------------------------------------------------------------------------------- Bannière */
+/*----------------------- Bannière -----------------------*/
 
 #banniere_image {
     /* lien du fond */
@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 
-/*------------------------------------------------------------------------------------- Partie présentation */
+/*------------------ Partie présentation ------------------*/
 
 #blocPres {
     /* flexibilité des éléments */
@@ -205,7 +205,7 @@ aside {
 }
 
 
-/*------------------------------------------------------------------------ Aside */
+/*------------------------------- Aside -------------------------------*/
 
 #reseaux {
     /* positionné dans le flux normal du document */
@@ -271,7 +271,7 @@ aside {
 }
 
 
-/*---------------------------------------------------------------------------- Articles */
+/*---------------------------------- Articles ----------------------------------*/
 
 #articles h2 {
     /* met le texte en majuscule */
@@ -294,7 +294,7 @@ aside {
 }
 
 
-/*-------------------------------------------------------------------------Article texmaker*/
+/*------------------------------- Article texmaker -------------------------------*/
 
 #texmaker {
     /* couleur de fond */
@@ -322,7 +322,7 @@ aside {
 }
 
 
-/*------------------------------------------------------------------------------Article html*/
+/*---------------------------------- Article html ----------------------------------*/
 
 #html {
     /* couleur de fond */
@@ -375,7 +375,7 @@ aside {
 }
 
 
-/*------------------------------------------------------------------------------ Footer */
+/*---------------------------------- Footer ----------------------------------*/
 
 footer {
     /* couleur de fond */
@@ -405,10 +405,10 @@ footer {
 }
 
 
-/* -------------------------------------------------------------------------------- Responsive design */
+/*--------------------------------- Responsive design ---------------------------------*/
 
 @media all and (max-width: 1024px) {
-    /*-----------------------------------Éléments principaux de la page*/
+    /*------------------------- Éléments principaux de la page -------------------------*/
     #bloc_page {
         /* largeur */
         width: auto;
@@ -417,7 +417,7 @@ footer {
         /* taille de la police */
         font-size: 12px;
     }
-    /*-----------------------------------------------Logo */
+    /*-------------------------------------- Logo --------------------------------------*/
     #logo {
         /* espace horizontal à gauche */
         margin-left: 0px;
@@ -426,7 +426,7 @@ footer {
         /* taille de la police */
         font-size: 18px;
         /* espace horizontal à gauche */
-        margin-left: 8 px;
+        margin-left: 8px;
     }
     #téléphone {
         /* largeur */
@@ -437,7 +437,7 @@ footer {
         la marge appliquée en haut de l'élément */
         margin-top: 15%;
     }
-    /*------------------------------------------- Navigation */
+    /*-------------------------------------- Navigation --------------------------------------*/
     nav {
         /* largeur */
         width: auto;
@@ -460,12 +460,12 @@ footer {
         /* Bordure en dessous */
         border-bottom: 0;
     }
-    /* -------------------------------------------- Bannière */
+    /*--------------------------------------- Bannière ---------------------------------------*/
     #banniere_image {
         /* Masquage */
         display: none;
     }
-    /*--------------------------------------- Partie présentation */
+    /*---------------------------------- Partie présentation ----------------------------------*/
     #blocPres {
         /* flexibilité des éléments */
         display: flex;
@@ -477,10 +477,6 @@ footer {
         font-size: 14px;
         /* alignement au centre du texte */
         margin-top: 5%;
-        /* espace horizontal à gauche */
-        margin-left: auto;
-        /* espace horizontal à droite */
-        margin-right: auto;
         /* espace horizontal en bas */
         margin-bottom: 35px;
     }
@@ -494,10 +490,10 @@ footer {
         /* espace horizontal à droite */
         margin-right: auto;
     }
-    /*------------------------------------------------- Aside */
+    /*------------------------------------------ Aside ------------------------------------------*/
     #reseaux {
         /* largeur */
-        width: 470px;
+        width: 430px;
         /* hauteur */
         height: 465px;
         /* espace horizontal à droite */
@@ -506,42 +502,23 @@ footer {
         margin-left: auto;
         /* espace horizontal en haut */
         margin-top: 4%;
-        /* espace autour d'un bloc */
-        padding: 1%;
-    }
-    #ma_photo {
-        /* alignement au centre du texte */
-        text-align: center;
     }
     #ma_photo img {
-        /* bordure */
-        border: 2px solid #ffffff;
-        /* permet de définir des coins arrondis
-        pour la bordure d'un élément */
-        border-radius: 50%;
         /* largeur */
         width: 200px;
         /* hauteur */
         height: 200px;
     }
     #reseaux a img {
-        /* espace horizontal à droite */
-        margin-right: auto;
-        /* espace horizontal à gauche */
-        margin-left: auto;
         /* largeur */
-        width: 15%;
+        width: 50px;
         /* hauteur */
-        height: 15%;
+        height: 50px;
     }
-    /*---------------------------------------------------------------------------- Articles */
+    /*------------------------------------------ Articles ------------------------------------------*/
     #articles h2 {
-        /* met le texte en majuscule */
-        text-transform: uppercase;
         /* taille de la police */
         font-size: 14px;
-        /* alignement au centre du texte */
-        text-align: center;
         /* espace horizontal en haut */
         margin-top: 5%;
         /* espace horizontal en bas */
@@ -553,16 +530,12 @@ footer {
         /* alignement au centre du texte */
         text-align: center;
     }
-    /*-------------------------------------------------------------------------Article texmaker*/
-    #texmaker {
-        /* couleur de fond */
-        background-color: honeydew;
-    }
+    /*--------------------------------------- Article texmaker ---------------------------------------*/
     #CapTeX {
         /* hauteur */
-        height: 25%;
+        height: 45px;
         /* largeur */
-        width: 80%;
+        width: 480px;
         /* espace horizontal en haut */
         margin-top: 5%;
         /* espace horizontal en bas */
@@ -575,12 +548,12 @@ footer {
     #caperr {
         /* alignement au centre du texte */
         text-align: center;
+        /* hauteur */
+        height: 205px;
+        /* largeur */
+        width: 280px;
     }
-    /*------------------------------------------------------------------------------Article html*/
-    #html {
-        /* couleur de fond */
-        background-color: honeydew;
-    }
+    /*------------------------------------------- Article html -------------------------------------------*/
     #LukeSKYWALKER {
         /* espace horizontal à gauche */
         margin-left: -0.4%
@@ -595,40 +568,36 @@ footer {
     }
     #asgard {
         /* espace horizontal à gauche */
-        margin-left: -6%
+        margin-left: -15%
     }
     #brucebanner {
         /* espace horizontal à gauche */
-        margin-left: -6.1%
+        margin-left: -15.5%
     }
     #tonystark {
         /* espace horizontal à gauche */
-        margin-left: -3.6%
+        margin-left: -9%
     }
     #Batman {
         /* espace horizontal à gauche */
-        margin-left: -3.6%
+        margin-left: -9.3%
     }
     #Superman {
         /* espace horizontal à gauche */
-        margin-left: -2.5%
+        margin-left: -6.3%
     }
     #Aquaman {
         /* espace horizontal à gauche */
-        margin-left: -2.7%
+        margin-left: -6.7%
     }
-    /*------------------------------------------------------------------------------ Footer */
-    footer {
-        /* couleur de fond */
-        background-color: #ffffff;
-    }
+    /*-------------------------------------------- Footer --------------------------------------------*/
     #logo_footer {
         /* largeur */
         width: 10%;
         /* hauteur */
         height: 10%;
         /* espace horizontal à gauche */
-        margin-left: 49%;
+        margin-left: 45%;
         /* espace horizontal à droite */
         margin-right: auto;
         /* espace nécessaire en haut d'un élément */
@@ -638,8 +607,8 @@ footer {
     }
     #logo_footer img {
         /* largeur */
-        width: 25%;
+        width: 55px;
         /* hauteur */
-        height: 25%;
+        height: 55px;
     }
 }
