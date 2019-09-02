@@ -12,7 +12,8 @@
         <header>
             <div id="titre_principal">
                 <a id="logo" class="link" href="index.html">
-                    <img src="./images/Logo_Booriko_Website.svg" alt="Logo Booriko's website" id="téléphone" />
+                    <object data="./images/Logo_Booriko_Website.svg" type="image/svg+xml">
+                    </object>
                     <h1>
                         Booriko's<br> Website
                     </h1>
@@ -49,8 +50,9 @@
                             J'ai décidé en juin 2017, après 19 ans de restauration, de me reconvertir dans l'informatique. Suite à un bilan de compétences confirmant ma décision, j'ai commencé à coder. Ce site est le premier que je créé. Il m'a fallu du temps pour le concevoir.
                             Il n'est pas sous sa forme aboutie et évoluera au fil du temps. La police que j'utilise pour ce site est l'<a class="link" href="https://opendyslexic.org/">Opendyslexic3</a>. C'est une police de
                             caractères libre qui améliore la clareté et qui évite les confusions de lecture chez les enfants dyslexiques. Je vous donnerais quelques précisions sur ma reconversion professionnelle dans un article et vous parlerais des technologies
-                            et sujets qui me tiennent à coeur. Vous pouvez me contacter sur tous sujets en cliquant sur <a href="mailto:johnnyyvard@me.com">Contact</a> un peu partout sur le site. Je suis également présent sur les réseaux que vous trouverez
-                            à droite de ce texte de présentation. Cliquez directement sur les icônes pour vous rendre sur mes profils. À très vite!!!
+                            et sujets qui me tiennent à coeur. Vous pouvez me contacter sur tous sujets en cliquant sur
+                            <a href="mailto:johnnyyvard@me.com">Contact</a> un peu partout sur le site. Je suis également présent sur les réseaux que vous trouverez à droite de ce texte de présentation. Cliquez directement sur les icônes pour vous rendre
+                            sur mes profils. À très vite!!!
                         </p>
                     </div>
                 </article>
@@ -99,7 +101,7 @@
                             <legend>Le formulaire qui suit est une zone de texte où un utilisateur peut, par exemple, saisir son pseudo.</legend>
                             <p>N'hésitez pas à tester.
                                 <br>Vous remarquerez qu'en cliquant sur le texte "Votre pseudo", le curseur se place automatiquement dans la zone de texte.
-                                <br/><br/>
+                                <br /><br />
                                 <label for="pseudo">Votre pseudo: </label>
                                 <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Johnny49" size="30" maxlength="10" />
                             </p>
@@ -121,15 +123,15 @@
                         <fieldset>
                             <legend>La zone suivante est une zone pour renseigner une adresse email.</legend>
                             <p> Même si elle paraît identique en tout point avec une zone de texte, le navigateur saura à quelle catégorie elle appartient.
-                                <br/><br/>
+                                <br /><br />
                                 <input type="email" />
-                                <br/><br/> Le navigateur saura que la suivante est pour renseigner une url.
-                                <br/><br/>
+                                <br /><br /> Le navigateur saura que la suivante est pour renseigner une url.
+                                <br /><br />
                                 <input type="url" />
-                                <br/><br/>Celle-ci sera pour un numéro de téléphone.
-                                <br/><br/>
+                                <br /><br />Celle-ci sera pour un numéro de téléphone.
+                                <br /><br />
                                 <input type="tel" />
-                                <br/><br/>Si vous testez les 3 dernières zones de texte sur un iPhone, vous verrez que votre clavier s'adaptera au type de champ.
+                                <br /><br />Si vous testez les 3 dernières zones de texte sur un iPhone, vous verrez que votre clavier s'adaptera au type de champ.
                             </p>
                         </fieldset>
                         <fieldset>
@@ -153,34 +155,39 @@
                         <fieldset>
                             <legend>Nous avons ensuite les cases à cocher, à plusieurs options.</legend>
                             <p>Quels sont les héros STAR WARS que vous aimez?
-                                <br/><br/>
-                                <input type="checkbox" name="LukeSKYWALKER" id="LukeSKYWALKER" checked/><label>Luke SKYWALKER</label><br/>
-                                <input type="checkbox" name="LeiaORGANA" id="LeiaORGANA" /><label>Leia ORGANA</label><br/>
-                                <input type="checkbox" name="HanSOLO" id="HanSOLO" checked/><label>Han SOLO</label><br/>
-                                <input type="checkbox" name="LandoCALRISSIAN" id="LandoCALRISSIAN" /><label>Lando CALRISSIAN</label><br/>
+                                <br /><br />
+                                <input type="checkbox" name="LukeSKYWALKER" id="LukeSKYWALKER" checked /><label>Luke
+                                    SKYWALKER</label><br />
+                                <input type="checkbox" name="LeiaORGANA" id="LeiaORGANA" /><label>Leia
+                                    ORGANA</label><br />
+                                <input type="checkbox" name="HanSOLO" id="HanSOLO" checked /><label>Han
+                                    SOLO</label><br />
+                                <input type="checkbox" name="LandoCALRISSIAN" id="LandoCALRISSIAN" /><label>Lando
+                                    CALRISSIAN</label><br />
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Les zones d'options permettent de faire un seul choix parmi une liste de possibilités.</legend>
+                            <legend>Les zones d'options permettent de faire un seul choix parmi une liste de possibilités.
+                            </legend>
                             <p>Quel est le super-héros MARVEL que vous préférez?
-                                <br/><br/>
-                                <input type="radio" name="Marvel" value="steverogers" id="steverogers" checked/><label for="steverogers">Captain America</label><br/>
-                                <input type="radio" name="Marvel" value="asgard" id="asgard" /><label for="asgard">Thor</label><br/>
-                                <input type="radio" name="Marvel" value="brucebanner" id="brucebanner" /><label for="brucebanner">Hulk</label><br/>
-                                <input type="radio" name="Marvel" value="tonystark" id="tonystark" /><label for="tonystark">Iron Man</label><br/>
-                                <br/><br/>Quel est le super-héros DC que vous préférez?
-                                <br/><br/>
-                                <input type="radio" name="DC" value="Batman" id="Batman" /><label for="Batman">Batman</label><br/>
-                                <input type="radio" name="DC" value="Superman" id="Superman" checked/><label for="Superman">Superman</label><br/>
-                                <input type="radio" name="DC" value="Aquaman" id="Aquaman" /><label for="Aquaman">Aquaman</label><br/>
-                                <input type="radio" name="DC" value="GreenLantern" id="GreenLantern" /><label for="GreenLantern">Green Lantern</label><br/>
+                                <br /><br />
+                                <input type="radio" name="Marvel" value="steverogers" id="steverogers" checked /><label for="steverogers">Captain America</label><br />
+                                <input type="radio" name="Marvel" value="asgard" id="asgard" /><label for="asgard">Thor</label><br />
+                                <input type="radio" name="Marvel" value="brucebanner" id="brucebanner" /><label for="brucebanner">Hulk</label><br />
+                                <input type="radio" name="Marvel" value="tonystark" id="tonystark" /><label for="tonystark">Iron Man</label><br />
+                                <br /><br />Quel est le super-héros DC que vous préférez?
+                                <br /><br />
+                                <input type="radio" name="DC" value="Batman" id="Batman" /><label for="Batman">Batman</label><br />
+                                <input type="radio" name="DC" value="Superman" id="Superman" checked /><label for="Superman">Superman</label><br />
+                                <input type="radio" name="DC" value="Aquaman" id="Aquaman" /><label for="Aquaman">Aquaman</label><br />
+                                <input type="radio" name="DC" value="GreenLantern" id="GreenLantern" /><label for="GreenLantern">Green Lantern</label><br />
                             </p>
                         </fieldset>
                         <fieldset>
                             <legend>Il existe aussi les listes déroulantes.</legend>
                             <p>
                                 <label for="hero">Quel est votre super-héros préféré?</label>
-                                <br/><br/>
+                                <br /><br />
                                 <select name="hero" id="hero">
                                     <optgroup label="MARVEL">
                                         <option value="CaptainAmerica" selected>Captain America</option>
@@ -190,21 +197,22 @@
                                     </optgroup>
                                     <optgroup label="DC">
                                         <option value="Batman">Batman</option>
-                                        <option value="Superman" >Superman</option>
+                                        <option value="Superman">Superman</option>
                                         <option value="Aquaman">Aquaman</option>
                                         <option value="GreenLantern">Green Lantern</option>
                                     </optgroup>
                                     <optgroup label="STAR WARS">
                                         <option value="Luke SKYWALKER">Luke SKYWALKER</option>
                                         <option value="Leia ORGANA">Leia ORGANA</option>
-                                        <option value="Han SOLO" >Han SOLO</option>
+                                        <option value="Han SOLO">Han SOLO</option>
                                         <option value="Lando CALRISSIAN">Lando CALRISSIAN</option>
                                     </optgroup>
                                 </select>
                             </p>
                         </fieldset>
                         <fieldset>
-                            <legend>Ce dernier bouton sert à envoyer les informations renseignées dans les champs précédents</legend>
+                            <legend>Ce dernier bouton sert à envoyer les informations renseignées dans les champs précédents
+                            </legend>
                             <p>
                                 <input type="reset" value="Envoyer" />
                             </p>
@@ -225,7 +233,7 @@
                     <a class="link" href="https://openclassrooms.com/fr/dashboard"> Openclassrooms</a> mais également sur le campus
                     <a class="link" href="https://www.imie.fr/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNv3633YPP6yKH-cletXpiUgeqxvhMOAGbp5NMi2EdUxUKo5SDpMhMBoC-DEQAvD_BwE">
                         IMIE</a>, le tout sur Nantes.
-                    <br/> Je suis en contrat de professionnalisation chez
+                    <br /> Je suis en contrat de professionnalisation chez
                     <a class="link" href="https://solution-de-gestion.fr/"> Gest'innov</a> depuis octobre 2018.
                     <br><br> 10 juillet 2019
                 </p>
