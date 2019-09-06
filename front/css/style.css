@@ -87,6 +87,8 @@ nav li {
 nav a {
     /* famille de la police */
     font-family: 'Poppins:medium', sans-serif;
+    /* graisse de la police */
+    font-weight: bold;
     /* Style de police */
     font-style: italic;
     /* couleur de la police */
@@ -96,7 +98,7 @@ nav a {
     /* espace nécessaire à la droite d'un élément */
     padding-right: 90%;
     /* taille de la police */
-    font-size: 24px;
+    font-size: 30px;
 }
 
 nav a:hover {
@@ -109,7 +111,7 @@ nav a:hover {
 
 #banniere_image {
     /* lien du fond */
-    background: url('../images/image.png') no-repeat;
+    background: url('./images/image.png') no-repeat;
     /* taille du fond */
     background-size: 100%;
     /* définit l'espace vertical pour 
