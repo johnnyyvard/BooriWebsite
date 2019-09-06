@@ -107,27 +107,6 @@ nav a:hover {
 }
 
 
-/*----------------------- Bannière -----------------------*/
-
-#banniere_image {
-    /* lien du fond */
-    background: url('./images/image.png') no-repeat;
-    /* taille du fond */
-    background-size: 100%;
-    /* définit l'espace vertical pour 
-    la marge appliquée en haut de l'élément */
-    margin-top: 3%;
-    /* largeur */
-    width: 1450px;
-    /* hauteur  */
-    height: 900px;
-    /* espace horizontal à gauche */
-    margin-left: auto;
-    /* espace horizontal à droite */
-    margin-right: auto;
-}
-
-
 /*------------------ Partie présentation ------------------*/
 
 #blocPres {
