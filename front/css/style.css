@@ -58,7 +58,7 @@ header {
 
 #logo {
     /* espace horizontal à gauche */
-    margin-left: 10%;
+    margin-left: 10px;
 }
 
 #logo img {
@@ -96,7 +96,7 @@ nav a {
     /* suppression de la ligne sous les liens */
     text-decoration: none;
     /* espace nécessaire à la droite d'un élément */
-    padding-right: 90%;
+    padding-right: 20px;
     /* taille de la police */
     font-size: 30px;
 }
@@ -401,15 +401,6 @@ footer {
         font-size: 18px;
         /* espace horizontal à gauche */
         margin-left: 8px;
-    }
-    #téléphone {
-        /* largeur */
-        width: 55px;
-        /* hauteur  */
-        height: 55px;
-        /* définit l'espace vertical pour 
-        la marge appliquée en haut de l'élément */
-        margin-top: 15%;
     }
     /*-------------------------------------- Navigation --------------------------------------*/
     nav {

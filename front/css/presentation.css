@@ -1,107 +1,185 @@
-/*---------- Éléments principaux de la page ----------*/
-
-#bloc_page {
-    /* largeur de la page */
-    width: 100%;
-    /* marge */
-    margin: auto;
-}
-
-body {
-    /* couleur de fond */
-    background-color: #fafbfb;
-    /* famille de la police */
-    font-family: 'Poppins', sans-serif;
-    /* taille de la police */
-    font-size: 20px;
-    /* couleur de la police */
-    color: #000000;
-}
-
-
-/*----------------------- Liens -----------------------*/
-
-a:link {
-    /* suppression de la ligne sous les liens */
-    text-decoration: none;
-}
-
-a {
-    /* couleur des liens */
-    color: #4292B6;
-}
-
-a:hover {
-    /* couleur des liens au passage du curseur */
-    color: #6AD540;
-}
-
-
-/*----------------------- Header -----------------------*/
-
-header {
-    /* couleur du fond */
-    background-color: #ffffff;
-    /* flexibilité des éléments */
-    display: flex;
-    /* Les éléments sont répartis équitablement
+        /*---------- Éléments principaux de la page ----------*/
+        
+        #bloc_page {
+            /* largeur de la page */
+            width: 100%;
+            /* marge */
+            margin: auto;
+        }
+        
+        body {
+            /* couleur de fond */
+            background-color: #fafbfb;
+            /* famille de la police */
+            font-family: 'Poppins', sans-serif;
+            /* taille de la police */
+            font-size: 20px;
+            /* couleur de la police */
+            color: #000000;
+        }
+        /*----------------------- Liens -----------------------*/
+        
+        a:link {
+            /* suppression de la ligne sous les liens */
+            text-decoration: none;
+        }
+        
+        a {
+            /* couleur des liens */
+            color: #4292B6;
+        }
+        
+        a:hover {
+            /* couleur des liens au passage du curseur */
+            color: #6AD540;
+        }
+        /*----------------------- Header -----------------------*/
+        
+        header {
+            /* couleur du fond */
+            background-color: #ffffff;
+            /* flexibilité des éléments */
+            display: flex;
+            /* Les éléments sont répartis équitablement
     Le bord du premier est aligné sur le 
     début du conteneur et la fin du dernier
     est alignée sur la fin du conteneur */
-    justify-content: space-between;
-    /* Les éléments flexibles sont regroupés à la fin */
-    align-items: flex-end;
-}
-
-
-/*------------------------ Logo ------------------------*/
-
-#logo {
-    /* espace horizontal à gauche */
-    margin-left: 10%;
-}
-
-#logo img {
-    /* largeur */
-    width: 160px;
-    /* hauteur */
-    height: 160px;
-}
-
-
-/*--------------------- Navigation ---------------------*/
-
-nav ul {
-    /* Masque les puces */
-    list-style-type: none;
-    /* flexibilité des éléments */
-    display: flex;
-}
-
-nav li {
-    /* définit l'espace horizontal à droite
+            justify-content: space-between;
+            /* Les éléments flexibles sont regroupés à la fin */
+            align-items: flex-end;
+        }
+        /*------------------------ Logo ------------------------*/
+        
+        #logo {
+            /* espace horizontal à gauche */
+            margin-left: 10px;
+        }
+        
+        #logo img {
+            /* largeur */
+            width: 160px;
+            /* hauteur */
+            height: 160px;
+        }
+        /*--------------------- Navigation ---------------------*/
+        
+        nav ul {
+            /* Masque les puces */
+            list-style-type: none;
+            /* flexibilité des éléments */
+            display: flex;
+        }
+        
+        nav li {
+            /* définit l'espace horizontal à droite
     qui formera la marge à droite */
-    margin-right: 25px;
-}
-
-nav a {
-    /* famille de la police */
-    font-family: 'Poppins:medium', sans-serif;
-    /* graisse de la police */
-    font-weight: bold;
-    /* Style de police */
-    font-style: italic;
-    /* couleur de la police */
-    color: #4292B6;
-    /* suppression de la ligne sous les liens */
-    text-decoration: none;
-    /* espace nécessaire à la droite d'un élément */
-    padding-right: 90%;
-    /* taille de la police */
-    font-size: 30px;
-}
-
-nav a:hover {
-    /* couleur des liens au passage du curseur */
-    color: #6AD540;
-}
+            margin-right: 25px;
+        }
+        
+        nav a {
+            /* famille de la police */
+            font-family: 'Poppins:medium', sans-serif;
+            /* graisse de la police */
+            font-weight: bold;
+            /* Style de police */
+            font-style: italic;
+            /* couleur de la police */
+            color: #4292B6;
+            /* suppression de la ligne sous les liens */
+            text-decoration: none;
+            /* espace nécessaire à la droite d'un élément */
+            padding-right: 20px;
+            /* taille de la police */
+            font-size: 30px;
+        }
+        
+        nav a:hover {
+            /* couleur des liens au passage du curseur */
+            color: #6AD540;
+        }
+        /*---------------------------------- Footer ----------------------------------*/
+        
+        footer {
+            /* couleur de fond */
+            background-color: #ffffff;
+        }
+        
+        #logo_footer {
+            /* largeur */
+            width: 10%;
+            /* hauteur */
+            height: 10%;
+            /* espace horizontal à gauche */
+            margin-left: auto;
+            /* espace horizontal à droite */
+            margin-right: auto;
+        }
+        
+        #logo_footer img {
+            /* largeur */
+            width: 160px;
+            /* hauteur */
+            height: 160px;
+        }
+        /*--------------------------------- Responsive design ---------------------------------*/
+        
+        @media all and (max-width: 1024px) {
+            /*------------------------- Éléments principaux de la page -------------------------*/
+            #bloc_page {
+                /* largeur */
+                width: auto;
+            }
+            body {
+                /* taille de la police */
+                font-size: 12px;
+            }
+            /*-------------------------------------- Logo --------------------------------------*/
+            #logo {
+                /* espace horizontal à gauche */
+                margin-left: 0px;
+            }
+            /*-------------------------------------- Navigation --------------------------------------*/
+            nav {
+                /* largeur */
+                width: auto;
+                /* alignement à gauche du texte */
+                text-align: left;
+            }
+            nav ul {
+                /* La direction suit une colonne */
+                flex-direction: column;
+            }
+            nav li {
+                /* espace nécessaire à la gauche d'un élément */
+                padding-left: 125px;
+            }
+            nav a {
+                /* taille de la police */
+                font-size: 14px;
+            }
+            nav a:hover {
+                /* Bordure en dessous */
+                border-bottom: 0;
+            }
+            /*-------------------------------------------- Footer --------------------------------------------*/
+            #logo_footer {
+                /* largeur */
+                width: 10%;
+                /* hauteur */
+                height: 10%;
+                /* espace horizontal à gauche */
+                margin-left: 45%;
+                /* espace horizontal à droite */
+                margin-right: auto;
+                /* espace nécessaire en haut d'un élément */
+                padding-top: 1%;
+                /* espace nécessaire en bas d'un élément */
+                padding-bottom: 1%;
+            }
+            #logo_footer img {
+                /* largeur */
+                width: 55px;
+                /* hauteur */
+                height: 55px;
+            }
+        }
