@@ -110,6 +110,7 @@ nav a:hover {
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
+    background: url(../images/MatosApple.png) no-repeat;
     /* largeur */
     width: 700px;
     /* hauteur */
@@ -118,6 +119,11 @@ nav a:hover {
     margin-left: 20px;
     /* espace horizontal en haut */
     margin-top: 20px;
+}
+
+#articlePresentation p {
+    /* couleur de la police */
+    color: #FFFFFF;
 }
 
 
