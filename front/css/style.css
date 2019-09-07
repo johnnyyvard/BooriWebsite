@@ -107,6 +107,20 @@ nav a:hover {
 }
 
 
+/*------------------------------------------------ Article présentation ------------------------------------------------*/
+
+#articlePresentation {
+    /* largeur */
+    width: 700px;
+    /* hauteur */
+    height: 400px;
+    /* espace horizontal à gauche */
+    margin-left: 20px;
+    /* espace horizontal en haut */
+    margin-top: 20px;
+}
+
+
 /*------------------ Partie présentation ------------------*/
 
 #blocPres {
