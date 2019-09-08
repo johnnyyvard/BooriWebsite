@@ -18,6 +18,11 @@ body {
     color: #000000;
 }
 
+h1 {
+    /* alignement au centre du texte */
+    text-align: center;
+}
+
 
 /*----------------------- Liens -----------------------*/
 
@@ -45,7 +50,7 @@ header {
     /* flexibilité des éléments */
     display: flex;
     /* Les éléments sont répartis équitablement
-    Le bord du premier est aligné sur le 
+    Le bord du premier est aligné sur le
     début du conteneur et la fin du dernier
     est alignée sur la fin du conteneur */
     justify-content: space-between;
@@ -112,11 +117,14 @@ nav a:hover {
 #articlePresentation {
     /* positionné dans le flux normal du document */
     position: relative;
+    /* image d'arrière plan */
     background: url(../images/MatosApple.png) repeat-x;
+    /* taille d'arrière plan */
     background-size: contain;
+    /* image d'arrière plan non répétée */
     background-repeat: no-repeat;
     /* hauteur */
-    height: 600px;
+    height: 500px;
     /* espace horizontal à gauche */
     margin-left: 20px;
     /* espace horizontal en haut */
@@ -126,139 +134,16 @@ nav a:hover {
 #bannierePresentation {
     /* positionné dans le flux normal du document */
     position: absolute;
-    margin-top: 250px;
+    /* marge en haut */
+    margin-top: 400px;
+    /* espace horizontal à gauche */
+    margin-left: 65px;
     /* couleur de la police */
     color: #FFFFFF;
     /* taille de la police */
     font-size: 30px;
-}
-
-
-/*------------------ Partie présentation ------------------*/
-
-#blocPres {
-    /* flexibilité des éléments */
-    display: flex;
-    /* La direction suit une ligne */
-    flex-direction: row;
-}
-
-#pres h2 {
-    /* met le texte en majuscule */
-    text-transform: uppercase;
-    /* taille de la police */
-    font-size: 18px;
-    /* alignement au centre du texte */
-    text-align: center;
-    /* espace horizontal en haut */
-    margin-top: 5%;
-    /* espace horizontal à gauche */
-    margin-left: auto;
-    /* espace horizontal à droite */
-    margin-right: auto;
-    /* espace horizontal en bas */
-    margin-bottom: 35px;
-}
-
-#pres {
-    /* espace horizontal en bas */
-    margin-bottom: 10%;
-}
-
-#pres article,
-aside {
-    /* texte justifié */
-    text-align: justify;
-    /* espace horizontal en haut */
-    margin-top: 1%;
-}
-
-#blocPres article {
-    /* génère une boîte de bloc ce qui ajoute des 
-    passages à la ligne avant et après l'élément dans le flux normal */
-    display: block;
-    /* espace horizontal à gauche */
-    margin-left: 5%;
-}
-
-#blocPres article p {
-    /* définit la hauteur entre les lignes */
-    line-height: 250%;
-    /* texte justifié */
-    text-align: justify;
-}
-
-#presentation {
-    /* largeur */
-    width: 750px;
-    /* hauteur */
-    height: 550px;
-}
-
-
-/*------------------------------- Aside -------------------------------*/
-
-#reseaux {
-    /* positionné dans le flux normal du document */
-    position: initial;
-    /* couleur du fond */
-    background-color: #6AD540;
-    /* ajoute des ombres à la boîte d'un élément */
-    box-shadow: 0px 3px 7px #1c1a19;
-    /* permet de définir des coins arrondis
-    pour la bordure d'un élément */
-    border-radius: 5px;
-    /* couleur de la police */
-    color: white;
-    /* largeur */
-    width: 750px;
-    /* hauteur */
-    height: 550px;
-    /* Les éléments flexibles sont regroupés à la fin */
-    align-items: flex-end;
-    /* alignement au centre du texte */
-    text-align: center;
-    /* espace horizontal à droite */
-    margin-right: 5%;
-    /* espace horizontal à gauche */
-    margin-left: 13%;
-    /* espace horizontal en haut */
-    margin-top: 4%;
-    /* espace autour d'un bloc */
-    padding: 1%;
-}
-
-#reseaux h2 {
-    /* espace horizontal à gauche */
-    margin-left: 0%;
-}
-
-#ma_photo {
-    /* alignement au centre du texte */
-    text-align: center;
-}
-
-#ma_photo img {
-    /* bordure */
-    border: 2px solid #ffffff;
-    /* permet de définir des coins arrondis
-    pour la bordure d'un élément */
-    border-radius: 50%;
-    /* largeur */
-    width: 50%;
-    /* hauteur */
-    height: 50%;
-}
-
-#reseaux a img {
-    /* espace horizontal à droite */
-    margin-right: auto;
-    /* espace horizontal à gauche */
-    margin-left: auto;
-    /* largeur */
-    width: 15%;
-    /* hauteur */
-    height: 15%;
+    /* graisse de la police */
+    font-weight: bold;
 }
 
 

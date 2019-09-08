@@ -161,6 +161,116 @@
                 /* Bordure en dessous */
                 border-bottom: 0;
             }
+            /*------------------ Partie présentation ------------------*/
+            #blocPres {
+                /* flexibilité des éléments */
+                display: flex;
+                /* La direction suit une ligne */
+                flex-direction: row;
+            }
+            #pres h2 {
+                /* met le texte en majuscule */
+                text-transform: uppercase;
+                /* taille de la police */
+                font-size: 18px;
+                /* alignement au centre du texte */
+                text-align: center;
+                /* espace horizontal en haut */
+                margin-top: 5%;
+                /* espace horizontal à gauche */
+                margin-left: auto;
+                /* espace horizontal à droite */
+                margin-right: auto;
+                /* espace horizontal en bas */
+                margin-bottom: 35px;
+            }
+            #pres {
+                /* espace horizontal en bas */
+                margin-bottom: 10%;
+            }
+            #pres article,
+            aside {
+                /* texte justifié */
+                text-align: justify;
+                /* espace horizontal en haut */
+                margin-top: 1%;
+            }
+            #blocPres article {
+                /* génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal */
+                display: block;
+                /* espace horizontal à gauche */
+                margin-left: 5%;
+            }
+            #blocPres article p {
+                /* définit la hauteur entre les lignes */
+                line-height: 250%;
+                /* texte justifié */
+                text-align: justify;
+            }
+            #presentation {
+                /* largeur */
+                width: 750px;
+                /* hauteur */
+                height: 550px;
+            }
+            /*------------------------------- Aside -------------------------------*/
+            #reseaux {
+                /* positionné dans le flux normal du document */
+                position: initial;
+                /* couleur du fond */
+                background-color: #6AD540;
+                /* ajoute des ombres à la boîte d'un élément */
+                box-shadow: 0px 3px 7px #1c1a19;
+                /* permet de définir des coins arrondis
+                pour la bordure d'un élément */
+                border-radius: 5px;
+                /* couleur de la police */
+                color: white;
+                /* largeur */
+                width: 750px;
+                /* hauteur */
+                height: 550px;
+                /* Les éléments flexibles sont regroupés à la fin */
+                align-items: flex-end;
+                /* alignement au centre du texte */
+                text-align: center;
+                /* espace horizontal à droite */
+                margin-right: 5%;
+                /* espace horizontal à gauche */
+                margin-left: 13%;
+                /* espace horizontal en haut */
+                margin-top: 4%;
+                /* espace autour d'un bloc */
+                padding: 1%;
+            }
+            #reseaux h2 {
+                /* espace horizontal à gauche */
+                margin-left: 0%;
+            }
+            #ma_photo {
+                /* alignement au centre du texte */
+                text-align: center;
+            }
+            #ma_photo img {
+                /* bordure */
+                border: 2px solid #ffffff;
+                /* permet de définir des coins arrondis pour la bordure d'un élément */
+                border-radius: 50%;
+                /* largeur */
+                width: 50%;
+                /* hauteur */
+                height: 50%;
+            }
+            #reseaux a img {
+                /* espace horizontal à droite */
+                margin-right: auto;
+                /* espace horizontal à gauche */
+                margin-left: auto;
+                /* largeur */
+                width: 15%;
+                /* hauteur */
+                height: 15%;
+            }
             /*-------------------------------------------- Footer --------------------------------------------*/
             #logo_footer {
                 /* largeur */
