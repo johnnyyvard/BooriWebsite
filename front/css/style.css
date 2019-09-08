@@ -110,14 +110,13 @@ nav a:hover {
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
+    /* positionné dans le flux normal du document */
     position: relative;
     background: url(../images/MatosApple.png) repeat-x;
     background-size: contain;
     background-repeat: no-repeat;
-    /* largeur */
-    width: 700px;
     /* hauteur */
-    height: 400px;
+    height: 600px;
     /* espace horizontal à gauche */
     margin-left: 20px;
     /* espace horizontal en haut */
@@ -125,10 +124,13 @@ nav a:hover {
 }
 
 #bannierePresentation {
+    /* positionné dans le flux normal du document */
     position: absolute;
-    margin-top: 25px;
+    margin-top: 250px;
     /* couleur de la police */
     color: #FFFFFF;
+    /* taille de la police */
+    font-size: 30px;
 }
 
 
