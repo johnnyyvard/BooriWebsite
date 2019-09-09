@@ -256,17 +256,9 @@ nav a:hover {
 footer {
     /* couleur de fond */
     background-color: #ffffff;
-}
-
-#logo_footer {
-    /* largeur */
-    width: 10%;
-    /* hauteur */
-    height: 10%;
-    /* espace horizontal à gauche */
-    margin-left: auto;
-    /* espace horizontal à droite */
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
 }
 
 #logo_footer img {
@@ -274,6 +266,65 @@ footer {
     width: 160px;
     /* hauteur */
     height: 160px;
+    margin-left: 695px;
+}
+
+#maPhoto {
+    /* largeur */
+    width: 120px;
+    /* hauteur */
+    height: 120px;
+}
+
+footer aside {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    background-color: #fafbfb;
+    height: 120px;
+    padding: 10px;
+}
+
+#facebook {
+    /* largeur */
+    width: 50px;
+    /* hauteur */
+    height: 4p0x;
+}
+
+#twitter {
+    /* largeur */
+    width: 50px;
+    /* hauteur */
+    height: 50px;
+}
+
+#linkedin {
+    /* largeur */
+    width: 45px;
+    /* hauteur */
+    height: 45px;
+}
+
+#github {
+    /* largeur */
+    width: 50px;
+    /* hauteur */
+    height: 50px;
+}
+
+#logosReseaux {
+    text-align: center;
+    margin-left: 15px;
+}
+
+#liensReseaux {
+    display: flex;
+    flex-direction: column;
+}
+
+#liensReseaux p {
+    margin-left: 25px;
 }
 
 
