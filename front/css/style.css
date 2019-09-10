@@ -13,7 +13,7 @@ body {
     /* famille de la police */
     font-family: 'Poppins', sans-serif;
     /* taille de la police */
-    font-size: 20px;
+    font-size: 100%;
     /* couleur de la police */
     color: #000000;
 }
@@ -63,14 +63,14 @@ header {
 
 #logo {
     /* espace horizontal à gauche */
-    margin-left: 10px;
+    margin-left: 10%;
 }
 
 #logo img {
     /* largeur */
-    width: 160px;
+    width: 80%;
     /* hauteur */
-    height: 160px;
+    height: 100%;
 }
 
 
@@ -86,7 +86,7 @@ nav ul {
 nav li {
     /* définit l'espace horizontal à droite
     qui formera la marge à droite */
-    margin-right: 25px;
+    margin-right: 5%;
 }
 
 nav a {
@@ -403,31 +403,6 @@ footer aside {
         margin-left: auto;
         /* espace horizontal à droite */
         margin-right: auto;
-    }
-    /*------------------------------------------ Aside ------------------------------------------*/
-    #reseaux {
-        /* largeur */
-        width: 430px;
-        /* hauteur */
-        height: 465px;
-        /* espace horizontal à droite */
-        margin-right: auto;
-        /* espace horizontal à gauche */
-        margin-left: auto;
-        /* espace horizontal en haut */
-        margin-top: 4%;
-    }
-    #ma_photo img {
-        /* largeur */
-        width: 200px;
-        /* hauteur */
-        height: 200px;
-    }
-    #reseaux a img {
-        /* largeur */
-        width: 50px;
-        /* hauteur */
-        height: 50px;
     }
     /*------------------------------------------ Articles ------------------------------------------*/
     #articles h2 {
