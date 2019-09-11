@@ -13,7 +13,7 @@ body {
     /* famille de la police */
     font-family: 'Poppins', sans-serif;
     /* taille de la police */
-    font-size: 100%;
+    font-size: 120%;
     /* couleur de la police */
     color: #000000;
 }
@@ -126,24 +126,22 @@ nav {
     /* image d'arrière plan non répétée */
     background-repeat: no-repeat;
     /* hauteur */
-    height: 500px;
+    height: 575px;
     /* espace horizontal à gauche */
-    margin-left: 20px;
-    /* espace horizontal en haut */
-    margin-top: 20px;
+    margin-left: 1%;
 }
 
 #bannierePresentation {
     /* positionné dans le flux normal du document */
     position: absolute;
     /* marge en haut */
-    margin-top: 400px;
+    margin-top: 28%;
     /* espace horizontal à gauche */
-    margin-left: 65px;
+    margin-left: 4%;
     /* couleur de la police */
     color: #FFFFFF;
     /* taille de la police */
-    font-size: 30px;
+    font-size: 160%;
     /* graisse de la police */
     font-weight: bold;
 }
@@ -260,63 +258,57 @@ footer {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    padding: 1%;
 }
 
 #logo_footer img {
     /* largeur */
-    width: 80%;
+    width: 1000%;
     /* hauteur */
     height: 100%;
-    margin-left: 280%;
+    margin-left: 4600%;
 }
 
 #maPhoto {
     /* largeur */
-    width: 120px;
+    width: 30%;
     /* hauteur */
-    height: 120px;
+    height: 120%;
 }
 
 footer aside {
     display: flex;
     flex-direction: row;
-    margin-left: 60%;
+    margin-left: 70%;
     background-color: #fafbfb;
-    height: 120px;
     padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #facebook {
     /* largeur */
-    width: 50px;
-    /* hauteur */
-    height: 40px;
+    width: 20%;
 }
 
 #twitter {
     /* largeur */
-    width: 50px;
-    /* hauteur */
-    height: 50px;
+    width: 21%;
 }
 
 #linkedin {
     /* largeur */
-    width: 45px;
-    /* hauteur */
-    height: 45px;
+    width: 18%;
 }
 
 #github {
     /* largeur */
-    width: 50px;
-    /* hauteur */
-    height: 50px;
+    width: 20%;
 }
 
 #logosReseaux {
     text-align: center;
-    margin-left: 15px;
+    margin-left: 1%;
 }
 
 #liensReseaux {
@@ -325,7 +317,7 @@ footer aside {
 }
 
 #liensReseaux p {
-    margin-left: 25px;
+    margin-left: 13%;
 }
 
 
