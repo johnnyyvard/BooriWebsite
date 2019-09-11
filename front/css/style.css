@@ -260,15 +260,14 @@ footer {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    padding: 15%;
 }
 
 #logo_footer img {
     /* largeur */
-    width: 160px;
+    width: 80%;
     /* hauteur */
-    height: 160px;
-    margin-left: 695px;
+    height: 100%;
+    margin-left: 280%;
 }
 
 #maPhoto {
@@ -281,7 +280,7 @@ footer {
 footer aside {
     display: flex;
     flex-direction: row;
-    margin-left: 300px;
+    margin-left: 60%;
     background-color: #fafbfb;
     height: 120px;
     padding: 10px;
@@ -291,7 +290,7 @@ footer aside {
     /* largeur */
     width: 50px;
     /* hauteur */
-    height: 4p0x;
+    height: 40px;
 }
 
 #twitter {
