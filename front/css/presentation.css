@@ -1,256 +1,260 @@
-    /*---------- Éléments principaux de la page ----------*/
-    
-    #bloc_page {
-        /* largeur de la page */
-        width: 100%;
-        /* marge */
-        margin: auto;
-    }
-    
-    body {
-        /* couleur de fond */
-        background-color: #fafbfb;
-        /* famille de la police */
-        font-family: 'Poppins', sans-serif;
-        /* taille de la police */
-        font-size: 20px;
-        /* couleur de la police */
-        color: #000000;
-    }
-    
-    h1 {
-        /* alignement au centre du texte */
-        text-align: center;
-    }
-    /*----------------------- Liens -----------------------*/
-    
-    a:link {
-        /* suppression de la ligne sous les liens */
-        text-decoration: none;
-    }
-    
-    a {
-        /* couleur des liens */
-        color: #4292B6;
-    }
-    
-    a:hover {
-        /* couleur des liens au passage du curseur */
-        color: #6AD540;
-    }
-    /*----------------------- Header -----------------------*/
-    
-    header {
-        /* couleur du fond */
-        background-color: #ffffff;
-        /* flexibilité des éléments */
-        display: flex;
-        /* Les éléments sont répartis équitablement
+                    /*---------- Éléments principaux de la page ----------*/
+                
+                #bloc_page {
+                    /* largeur de la page */
+                    width: 100%;
+                    /* marge */
+                    margin: auto;
+                }
+                
+                body {
+                    /* couleur de fond */
+                    background-color: #fafbfb;
+                    /* famille de la police */
+                    font-family: 'Poppins', sans-serif;
+                    /* taille de la police */
+                    font-size: 20px;
+                    /* couleur de la police */
+                    color: #000000;
+                }
+                
+                h1 {
+                    /* alignement au centre du texte */
+                    text-align: center;
+                }
+                /*----------------------- Liens -----------------------*/
+                
+                a:link {
+                    /* suppression de la ligne sous les liens */
+                    text-decoration: none;
+                }
+                
+                a {
+                    /* couleur des liens */
+                    color: #4292B6;
+                }
+                
+                a:hover {
+                    /* couleur des liens au passage du curseur */
+                    color: #6AD540;
+                }
+                /*----------------------- Header -----------------------*/
+                
+                header {
+                    /* couleur du fond */
+                    background-color: #ffffff;
+                    /* flexibilité des éléments */
+                    display: flex;
+                    /* Les éléments sont répartis équitablement
     Le bord du premier est aligné sur le 
     début du conteneur et la fin du dernier
     est alignée sur la fin du conteneur */
-        justify-content: space-between;
-        /* Les éléments flexibles sont regroupés à la fin */
-        align-items: flex-end;
-    }
-    /*------------------------ Logo ------------------------*/
-    
-    #logo {
-        /* espace horizontal à gauche */
-        margin-left: 10px;
-    }
-    
-    #logo img {
-        /* largeur */
-        width: 160px;
-        /* hauteur */
-        height: 160px;
-    }
-    /*--------------------- Navigation ---------------------*/
-    
-    nav ul {
-        /* Masque les puces */
-        list-style-type: none;
-        /* flexibilité des éléments */
-        display: flex;
-    }
-    
-    nav li {
-        /* définit l'espace horizontal à droite qui formera la marge à droite */
-        margin-right: 25px;
-    }
-    
-    nav a {
-        /* famille de la police */
-        font-family: 'Poppins:medium', sans-serif;
-        /* graisse de la police */
-        font-weight: bold;
-        /* Style de police */
-        font-style: italic;
-        /* couleur de la police */
-        color: #4292B6;
-        /* suppression de la ligne sous les liens */
-        text-decoration: none;
-        /* espace nécessaire à la droite d'un élément */
-        padding-right: 20px;
-        /* taille de la police */
-        font-size: 30px;
-    }
-    
-    nav a:hover {
-        /* couleur des liens au passage du curseur */
-        color: #6AD540;
-    }
-    /*------------------ Partie présentation ------------------*/
-    
-    #blocPres article {
-        /* génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal */
-        display: block;
-        /* espace horizontal à gauche */
-        margin-left: 155px;
-        margin-right: 155px;
-    }
-    
-    #blocPres article p {
-        /* définit la hauteur entre les lignes */
-        line-height: 55px;
-        /* texte justifié */
-        text-align: justify;
-    }
-    /*---------------------------------- Footer ----------------------------------*/
-    
-    footer {
-        /* couleur de fond */
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-    }
-    
-    #logo_footer img {
-        /* largeur */
-        width: 80%;
-        /* hauteur */
-        height: 100%;
-        margin-left: 325%;
-    }
-    
-    #maPhoto {
-        /* largeur */
-        width: 120px;
-        /* hauteur */
-        height: 120px;
-    }
-    
-    footer aside {
-        display: flex;
-        flex-direction: row;
-        margin-left: 55%;
-        background-color: #fafbfb;
-        height: 120px;
-        padding: 10px;
-    }
-    
-    #facebook {
-        /* largeur */
-        width: 50px;
-        /* hauteur */
-        height: 4p0x;
-    }
-    
-    #twitter {
-        /* largeur */
-        width: 50px;
-        /* hauteur */
-        height: 50px;
-    }
-    
-    #linkedin {
-        /* largeur */
-        width: 45px;
-        /* hauteur */
-        height: 45px;
-    }
-    
-    #github {
-        /* largeur */
-        width: 50px;
-        /* hauteur */
-        height: 50px;
-    }
-    
-    #logosReseaux {
-        text-align: center;
-        margin-left: 15px;
-    }
-    
-    #liensReseaux {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #liensReseaux p {
-        margin-left: 25px;
-    }
-    /*--------------------------------- Responsive design ---------------------------------*/
-    
-    @media all and (max-width: 1024px) {
-        /*------------------------- Éléments principaux de la page -------------------------*/
-        #bloc_page {
-            /* largeur */
-            width: auto;
-        }
-        body {
-            /* taille de la police */
-            font-size: 12px;
-        }
-        /*-------------------------------------- Logo --------------------------------------*/
-        #logo {
-            /* espace horizontal à gauche */
-            margin-left: 0px;
-        }
-        /*-------------------------------------- Navigation --------------------------------------*/
-        nav {
-            /* largeur */
-            width: auto;
-            /* alignement à gauche du texte */
-            text-align: left;
-        }
-        nav ul {
-            /* La direction suit une colonne */
-            flex-direction: column;
-        }
-        nav li {
-            /* espace nécessaire à la gauche d'un élément */
-            padding-left: 125px;
-        }
-        nav a {
-            /* taille de la police */
-            font-size: 14px;
-        }
-        nav a:hover {
-            /* Bordure en dessous */
-            border-bottom: 0;
-        }
-        /*-------------------------------------------- Footer --------------------------------------------*/
-        #logo_footer {
-            /* largeur */
-            width: 10%;
-            /* hauteur */
-            height: 10%;
-            /* espace horizontal à gauche */
-            margin-left: auto;
-            /* espace horizontal à droite */
-            margin-right: auto;
-            /* espace nécessaire en haut d'un élément */
-            padding-top: 1%;
-            /* espace nécessaire en bas d'un élément */
-            padding-bottom: 1%;
-        }
-        #logo_footer img {
-            /* largeur */
-            width: 120%;
-            /* hauteur */
-            height: 120%;
-        }
-    }
+                    justify-content: space-between;
+                    /* Les éléments flexibles sont regroupés à la fin */
+                    align-items: flex-end;
+                }
+                /*------------------------ Logo ------------------------*/
+                
+                #logo {
+                    /* espace horizontal à gauche */
+                    margin-left: 10px;
+                }
+                
+                #logo img {
+                    /* largeur */
+                    width: 160px;
+                    /* hauteur */
+                    height: 160px;
+                }
+                /*--------------------- Navigation ---------------------*/
+                
+                nav ul {
+                    /* Masque les puces */
+                    list-style-type: none;
+                    /* flexibilité des éléments */
+                    display: flex;
+                }
+                
+                nav li {
+                    /* définit l'espace horizontal à droite qui formera la marge à droite */
+                    margin-right: 25px;
+                }
+                
+                nav a {
+                    /* famille de la police */
+                    font-family: 'Poppins:medium', sans-serif;
+                    /* graisse de la police */
+                    font-weight: bold;
+                    /* Style de police */
+                    font-style: italic;
+                    /* couleur de la police */
+                    color: #4292B6;
+                    /* suppression de la ligne sous les liens */
+                    text-decoration: none;
+                    /* espace nécessaire à la droite d'un élément */
+                    padding-right: 20px;
+                    /* taille de la police */
+                    font-size: 30px;
+                }
+                
+                nav a:hover {
+                    /* couleur des liens au passage du curseur */
+                    color: #6AD540;
+                }
+                /*------------------ Partie présentation ------------------*/
+                
+                #blocPres article {
+                    /* génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal */
+                    display: block;
+                    /* espace horizontal à gauche */
+                    margin-left: 155px;
+                    margin-right: 155px;
+                }
+                
+                #blocPres article p {
+                    /* définit la hauteur entre les lignes */
+                    line-height: 55px;
+                    /* texte justifié */
+                    text-align: justify;
+                }
+                
+                #matosApple {
+                    width: 1300px;
+                    margin-left: -8%;
+                }
+                /*---------------------------------- Footer ----------------------------------*/
+                
+                footer {
+                    /* couleur de fond */
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 10px;
+                }
+                
+                #logo_footer img {
+                    /* largeur */
+                    width: 80%;
+                    /* hauteur */
+                    height: 100%;
+                    margin-left: 325%;
+                }
+                
+                #maPhoto {
+                    /* largeur */
+                    width: 120px;
+                    /* hauteur */
+                    height: 120px;
+                }
+                
+                footer aside {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 55%;
+                    background-color: #fafbfb;
+                    height: 120px;
+                    padding: 10px;
+                }
+                
+                #facebook {
+                    /* largeur */
+                    width: 50px;
+                    /* hauteur */
+                    height: 4p0x;
+                }
+                
+                #twitter {
+                    /* largeur */
+                    width: 50px;
+                    /* hauteur */
+                    height: 50px;
+                }
+                
+                #linkedin {
+                    /* largeur */
+                    width: 45px;
+                    /* hauteur */
+                    height: 45px;
+                }
+                
+                #github {
+                    /* largeur */
+                    width: 50px;
+                    /* hauteur */
+                    height: 50px;
+                }
+                
+                #logosReseaux {
+                    text-align: center;
+                    margin-left: 15px;
+                }
+                
+                #liensReseaux {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                #liensReseaux p {
+                    margin-left: 25px;
+                }
+                /*--------------------------------- Responsive design ---------------------------------*/
+                
+                @media all and (max-width: 1024px) {
+                    /*------------------------- Éléments principaux de la page -------------------------*/
+                    #bloc_page {
+                        /* largeur */
+                        width: auto;
+                    }
+                    body {
+                        /* taille de la police */
+                        font-size: 12px;
+                    }
+                    /*-------------------------------------- Logo --------------------------------------*/
+                    #logo {
+                        /* espace horizontal à gauche */
+                        margin-left: 0px;
+                    }
+                    /*-------------------------------------- Navigation --------------------------------------*/
+                    nav {
+                        /* largeur */
+                        width: auto;
+                        /* alignement à gauche du texte */
+                        text-align: left;
+                    }
+                    nav ul {
+                        /* La direction suit une colonne */
+                        flex-direction: column;
+                    }
+                    nav li {
+                        /* espace nécessaire à la gauche d'un élément */
+                        padding-left: 125px;
+                    }
+                    nav a {
+                        /* taille de la police */
+                        font-size: 14px;
+                    }
+                    nav a:hover {
+                        /* Bordure en dessous */
+                        border-bottom: 0;
+                    }
+                    /*-------------------------------------------- Footer --------------------------------------------*/
+                    #logo_footer {
+                        /* largeur */
+                        width: 10%;
+                        /* hauteur */
+                        height: 10%;
+                        /* espace horizontal à gauche */
+                        margin-left: auto;
+                        /* espace horizontal à droite */
+                        margin-right: auto;
+                        /* espace nécessaire en haut d'un élément */
+                        padding-top: 1%;
+                        /* espace nécessaire en bas d'un élément */
+                        padding-bottom: 1%;
+                    }
+                    #logo_footer img {
+                        /* largeur */
+                        width: 120%;
+                        /* hauteur */
+                        height: 120%;
+                    }
