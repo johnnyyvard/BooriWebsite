@@ -114,19 +114,28 @@ nav {
 }
 
 
+/*------------------------ Section première articles ------------------------*/
+
+#articles a {
+    display: flex;
+    flex-direction: row
+}
+
+
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
+    display: flex;
     /* positionné dans le flux normal du document */
     position: relative;
     /* image d'arrière plan */
-    background: url(../images/MatosApple.png) repeat-x;
     /* taille d'arrière plan */
     background-size: contain;
     /* image d'arrière plan non répétée */
     background-repeat: no-repeat;
     /* hauteur */
     height: 575px;
+    width: 400px;
     /* espace horizontal à gauche */
     margin-left: 1%;
 }
@@ -140,6 +149,36 @@ nav {
     margin-left: 4%;
     /* couleur de la police */
     color: #FFFFFF;
+    /* taille de la police */
+    font-size: 160%;
+    /* graisse de la police */
+    font-weight: bold;
+}
+
+
+/*-------------------------- Article reconversion --------------------------*/
+
+#articleReconversion {
+    display: flex;
+    position: relative;
+    /* hauteur */
+    height: 575px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* espace horizontal à gauche */
+    margin-left: 1%;
+}
+
+#banniereReconversion {
+    /* positionné dans le flux normal du document */
+    position: absolute;
+    /* marge en haut */
+    margin-top: 28%;
+    /* espace horizontal à gauche */
+    margin-left: 4%;
+    /* couleur de la police */
+    color: #4292B6;
     /* taille de la police */
     font-size: 160%;
     /* graisse de la police */
@@ -381,43 +420,6 @@ footer aside {
         height: 205px;
         /* largeur */
         width: 280px;
-    }
-    /*------------------------------------------- Article html -------------------------------------------*/
-    #LukeSKYWALKER {
-        /* espace horizontal à gauche */
-        margin-left: -0.4%
-    }
-    #LeiaORGANA {
-        /* espace horizontal à gauche */
-        margin-left: -6.5%;
-    }
-    #HanSOLO {
-        /* espace horizontal à gauche */
-        margin-left: -11.3%
-    }
-    #asgard {
-        /* espace horizontal à gauche */
-        margin-left: -15%
-    }
-    #brucebanner {
-        /* espace horizontal à gauche */
-        margin-left: -15.5%
-    }
-    #tonystark {
-        /* espace horizontal à gauche */
-        margin-left: -9%
-    }
-    #Batman {
-        /* espace horizontal à gauche */
-        margin-left: -9.3%
-    }
-    #Superman {
-        /* espace horizontal à gauche */
-        margin-left: -6.3%
-    }
-    #Aquaman {
-        /* espace horizontal à gauche */
-        margin-left: -6.7%
     }
     /*-------------------------------------------- Footer --------------------------------------------*/
     #logo_footer {
