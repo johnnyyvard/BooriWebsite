@@ -116,16 +116,17 @@ nav {
 
 /*------------------------ Section première articles ------------------------*/
 
-#articles a {
+#articles {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
-    display: flex;
+    display: block;
     /* positionné dans le flux normal du document */
     position: relative;
     /* image d'arrière plan */
@@ -134,8 +135,8 @@ nav {
     /* image d'arrière plan non répétée */
     background-repeat: no-repeat;
     /* hauteur */
-    height: 575px;
-    width: 400px;
+    height: 375px;
+    width: 525px;
     /* espace horizontal à gauche */
     margin-left: 1%;
 }
@@ -144,7 +145,7 @@ nav {
     /* positionné dans le flux normal du document */
     position: absolute;
     /* marge en haut */
-    margin-top: 28%;
+    margin-top: 45%;
     /* espace horizontal à gauche */
     margin-left: 4%;
     /* couleur de la police */
@@ -159,15 +160,14 @@ nav {
 /*-------------------------- Article reconversion --------------------------*/
 
 #articleReconversion {
-    display: flex;
+    display: block;
     position: relative;
     /* hauteur */
-    height: 575px;
-    width: 400px;
+    height: 375px;
+    width: 600px;
     background-size: contain;
     background-repeat: no-repeat;
     /* espace horizontal à gauche */
-    margin-left: 1%;
 }
 
 #banniereReconversion {
