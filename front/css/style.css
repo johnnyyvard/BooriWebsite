@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 nav {
-    margin-right: 8%;
+    margin-right: 15%;
 }
 
 
@@ -119,14 +119,14 @@ nav {
 #articles {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-left: -9%;
 }
 
 
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
-    display: block;
     /* positionné dans le flux normal du document */
     position: relative;
     /* image d'arrière plan */
@@ -135,17 +135,15 @@ nav {
     /* image d'arrière plan non répétée */
     background-repeat: no-repeat;
     /* hauteur */
-    height: 375px;
-    width: 525px;
-    /* espace horizontal à gauche */
-    margin-left: 1%;
+    height: 340px;
+    width: 454px;
 }
 
 #bannierePresentation {
     /* positionné dans le flux normal du document */
     position: absolute;
     /* marge en haut */
-    margin-top: 45%;
+    margin-top: 64%;
     /* espace horizontal à gauche */
     margin-left: 4%;
     /* couleur de la police */
@@ -163,7 +161,7 @@ nav {
     display: block;
     position: relative;
     /* hauteur */
-    height: 375px;
+    height: 340px;
     width: 600px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -174,11 +172,11 @@ nav {
     /* positionné dans le flux normal du document */
     position: absolute;
     /* marge en haut */
-    margin-top: 28%;
+    margin-top: 49%;
     /* espace horizontal à gauche */
     margin-left: 4%;
     /* couleur de la police */
-    color: #4292B6;
+    color: #000000;
     /* taille de la police */
     font-size: 160%;
     /* graisse de la police */
