@@ -116,7 +116,7 @@ nav {
 
 /*------------------ Partie présentation ------------------*/
 
-#blocPres article {
+#blocReconversion article {
     /* génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal */
     display: block;
     /* espace horizontal à gauche */
@@ -124,16 +124,16 @@ nav {
     margin-right: 155px;
 }
 
-#blocPres article p {
+#blocReconversion article p {
     /* définit la hauteur entre les lignes */
     line-height: 55px;
     /* texte justifié */
     text-align: justify;
 }
 
-#matosApple {
+#reconversionPro {
     width: 1150px;
-    margin-left: -2%;
+    margin-left: -1.5%;
 }
 
 #date {
@@ -148,49 +148,64 @@ footer {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    padding: 1%;
+    padding: 10px;
+}
+
+#logo_footer img {
+    /* largeur */
+    width: 80%;
+    /* hauteur */
+    height: 100%;
+    margin-left: 307%;
 }
 
 #maPhoto {
     /* largeur */
-    width: 30%;
+    width: 120px;
     /* hauteur */
-    height: 120%;
+    height: 120px;
 }
 
 footer aside {
     display: flex;
     flex-direction: row;
-    margin-left: 70%;
+    margin-left: 54%;
     background-color: #fafbfb;
+    height: 120px;
     padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 #facebook {
     /* largeur */
-    width: 20%;
+    width: 50px;
+    /* hauteur */
+    height: 4p0x;
 }
 
 #twitter {
     /* largeur */
-    width: 21%;
+    width: 50px;
+    /* hauteur */
+    height: 50px;
 }
 
 #linkedin {
     /* largeur */
-    width: 18%;
+    width: 45px;
+    /* hauteur */
+    height: 45px;
 }
 
 #github {
     /* largeur */
-    width: 20%;
+    width: 50px;
+    /* hauteur */
+    height: 50px;
 }
 
 #logosReseaux {
     text-align: center;
-    margin-left: 1%;
+    margin-left: 15px;
 }
 
 #liensReseaux {
@@ -199,5 +214,5 @@ footer aside {
 }
 
 #liensReseaux p {
-    margin-left: 13%;
+    margin-left: 25px;
 }

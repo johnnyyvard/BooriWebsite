@@ -116,7 +116,7 @@ nav {
 
 /*------------------------ Section première articles ------------------------*/
 
-#articles {
+#article {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

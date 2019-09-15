@@ -13,7 +13,7 @@ body {
     /* famille de la police */
     font-family: 'Poppins', sans-serif;
     /* taille de la police */
-    font-size: 20px;
+    font-size: 120%;
     /* couleur de la police */
     color: #000000;
 }
@@ -130,7 +130,7 @@ nav a:hover {
 
 #matosApple {
     width: 1150px;
-    margin-left: -2%;
+    margin-left: -1.5%;
 }
 
 #date {
@@ -153,7 +153,7 @@ footer {
     width: 80%;
     /* hauteur */
     height: 100%;
-    margin-left: 325%;
+    margin-left: 307%;
 }
 
 #maPhoto {
