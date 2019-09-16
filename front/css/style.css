@@ -114,13 +114,83 @@ nav {
 }
 
 
-/*------------------------ Section première articles ------------------------*/
+/*------------------------ div article ------------------------*/
 
 #article {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: -9%;
+}
+
+
+/*------------------------------------------------- div colonneArticle -------------------------------------------------*/
+
+#colonneArticle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+/*-------------------------------------------------- Article TeXmaker --------------------------------------------------*/
+
+#articleTexmaker {
+    /* positionné dans le flux normal du document */
+    position: relative;
+    /* image d'arrière plan */
+    /* taille d'arrière plan */
+    background-size: contain;
+    /* image d'arrière plan non répétée */
+    background-repeat: no-repeat;
+    /* hauteur */
+    height: 340px;
+    width: 490px;
+    margin-left: 29%;
+}
+
+#banniereTexmaker {
+    /* positionné dans le flux normal du document */
+    position: absolute;
+    /* marge en haut */
+    margin-top: 37%;
+    /* espace horizontal à gauche */
+    margin-left: 8%;
+    /* couleur de la police */
+    color: #000000;
+    /* taille de la police */
+    font-size: 160%;
+    /* graisse de la police */
+    font-weight: bold;
+}
+
+
+/*-------------------------- Article reconversion --------------------------*/
+
+#articleReconversion {
+    display: block;
+    position: relative;
+    /* hauteur */
+    height: 340px;
+    width: 625px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+}
+
+#banniereReconversion {
+    /* positionné dans le flux normal du document */
+    position: absolute;
+    /* marge en haut */
+    margin-top: 45%;
+    /* espace horizontal à gauche */
+    margin-left: 4%;
+    /* couleur de la police */
+    color: #000000;
+    /* taille de la police */
+    font-size: 160%;
+    /* graisse de la police */
+    font-weight: bold;
 }
 
 
@@ -137,6 +207,7 @@ nav {
     /* hauteur */
     height: 340px;
     width: 454px;
+    margin-left: 2%;
 }
 
 #bannierePresentation {
@@ -152,86 +223,6 @@ nav {
     font-size: 160%;
     /* graisse de la police */
     font-weight: bold;
-}
-
-
-/*-------------------------- Article reconversion --------------------------*/
-
-#articleReconversion {
-    display: block;
-    position: relative;
-    /* hauteur */
-    height: 340px;
-    width: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* espace horizontal à gauche */
-}
-
-#banniereReconversion {
-    /* positionné dans le flux normal du document */
-    position: absolute;
-    /* marge en haut */
-    margin-top: 49%;
-    /* espace horizontal à gauche */
-    margin-left: 4%;
-    /* couleur de la police */
-    color: #000000;
-    /* taille de la police */
-    font-size: 160%;
-    /* graisse de la police */
-    font-weight: bold;
-}
-
-
-/*---------------------------------- Articles ----------------------------------*/
-
-#articles h2 {
-    /* met le texte en majuscule */
-    text-transform: uppercase;
-    /* taille de la police */
-    font-size: 18px;
-    /* alignement au centre du texte */
-    text-align: center;
-    /* espace horizontal en haut */
-    margin-top: 5%;
-    /* espace horizontal en bas */
-    margin-bottom: 5%;
-}
-
-#articles p {
-    /* texte justifié */
-    text-align: justify;
-    /* alignement au centre du texte */
-    text-align: center;
-}
-
-
-/*------------------------------- Article texmaker -------------------------------*/
-
-#texmaker {
-    /* couleur de fond */
-    background-color: honeydew;
-}
-
-#CapTeX {
-    /* hauteur */
-    height: 25%;
-    /* largeur */
-    width: 80%;
-    /* espace horizontal en haut */
-    margin-top: 5%;
-    /* espace horizontal en bas */
-    margin-bottom: 2%;
-    /* espace horizontal à gauche */
-    margin-left: auto;
-    /* espace horizontal à droite */
-    margin-right: auto;
-}
-
-#caperr {
-    /* alignement au centre du texte */
-    text-align: center;
 }
 
 
@@ -380,44 +371,6 @@ footer aside {
         margin-left: auto;
         /* espace horizontal à droite */
         margin-right: auto;
-    }
-    /*------------------------------------------ Articles ------------------------------------------*/
-    #articles h2 {
-        /* taille de la police */
-        font-size: 14px;
-        /* espace horizontal en haut */
-        margin-top: 5%;
-        /* espace horizontal en bas */
-        margin-bottom: 5%;
-    }
-    #articles p {
-        /* texte justifié */
-        text-align: justify;
-        /* alignement au centre du texte */
-        text-align: center;
-    }
-    /*--------------------------------------- Article texmaker ---------------------------------------*/
-    #CapTeX {
-        /* hauteur */
-        height: 45px;
-        /* largeur */
-        width: 480px;
-        /* espace horizontal en haut */
-        margin-top: 5%;
-        /* espace horizontal en bas */
-        margin-bottom: 2%;
-        /* espace horizontal à gauche */
-        margin-left: auto;
-        /* espace horizontal à droite */
-        margin-right: auto;
-    }
-    #caperr {
-        /* alignement au centre du texte */
-        text-align: center;
-        /* hauteur */
-        height: 205px;
-        /* largeur */
-        width: 280px;
     }
     /*-------------------------------------------- Footer --------------------------------------------*/
     #logo_footer {
