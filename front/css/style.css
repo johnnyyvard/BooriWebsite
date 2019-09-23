@@ -120,7 +120,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: -9%;
 }
 
 
@@ -136,6 +135,7 @@ nav {
 /*-------------------------------------------------- Article TeXmaker --------------------------------------------------*/
 
 #articleTexmaker {
+    background: url('../images/erreurFichierNonTrouve.png') no-repeat;
     /* positionné dans le flux normal du document */
     position: relative;
     /* image d'arrière plan */
@@ -145,8 +145,7 @@ nav {
     background-repeat: no-repeat;
     /* hauteur */
     height: 340px;
-    width: 490px;
-    margin-left: 29%;
+    width: 480px;
 }
 
 #banniereTexmaker {
@@ -164,18 +163,22 @@ nav {
     font-weight: bold;
 }
 
+#lienTexmaker {
+    margin-left: 5%;
+}
+
 
 /*-------------------------- Article reconversion --------------------------*/
 
 #articleReconversion {
+    background: url('../images/reconversion.jpg');
     display: block;
     position: relative;
     /* hauteur */
     height: 340px;
-    width: 625px;
+    width: 603px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 25%;
 }
 
 #banniereReconversion {
@@ -191,6 +194,10 @@ nav {
     font-size: 160%;
     /* graisse de la police */
     font-weight: bold;
+}
+
+#lienReconversion {
+    margin-left: 3%;
 }
 
 
