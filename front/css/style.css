@@ -204,6 +204,7 @@ nav {
 /*------------------------------------------------ Article présentation ------------------------------------------------*/
 
 #articlePresentation {
+    background: url('../images/MatosApple.png');
     /* positionné dans le flux normal du document */
     position: relative;
     /* image d'arrière plan */
@@ -213,8 +214,7 @@ nav {
     background-repeat: no-repeat;
     /* hauteur */
     height: 340px;
-    width: 454px;
-    margin-left: 2%;
+    width: 460px;
 }
 
 #bannierePresentation {
@@ -230,6 +230,10 @@ nav {
     font-size: 160%;
     /* graisse de la police */
     font-weight: bold;
+}
+
+#lienPresentation {
+    margin-left: 3%;
 }
 
 
