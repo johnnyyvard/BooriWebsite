@@ -249,10 +249,10 @@ footer {
 
 #logo_footer img {
     /* largeur */
-    width: 1000%;
+    width: 150px;
     /* hauteur */
-    height: 100%;
-    margin-left: 4600%;
+    height: 150px;
+    margin-left: 360%;
 }
 
 #maPhoto {
@@ -265,7 +265,7 @@ footer {
 footer aside {
     display: flex;
     flex-direction: row;
-    margin-left: 70%;
+    margin-left: 60%;
     background-color: #fafbfb;
     padding: 10px;
     margin-top: auto;
